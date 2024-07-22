@@ -98,7 +98,7 @@
                 version = "0.3.0";
                 src = pkgs.fetchurl {
                   url = "https://github.com/swiftlang/swiftly/releases/download/0.3.0/swiftly-aarch64-unknown-linux-gnu";
-                  sha256 = "1gll8rq5qrs4wblk8vds9wcfkva0sdmp88kpj2dwvxwjc04x680q";
+                  sha256 = "sPxzc+Su/CVI+yrzUYnNhppwd1A+taMwSFMmSBKI/Tw=";
                 };
                 dontUnpack = true;
                 installPhase = ''
