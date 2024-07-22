@@ -17,7 +17,7 @@ $ nix run github:josh/swift-nix#swiftly-install
 ```sh
 # Run swiftly,
 # Though it expects a bunch of other configuration to be added to your profile
-# first. So maybe you should have ignored me and run the installer anyway. It
+# first. So maybe you should have ignored me and ran the installer anyway. It
 # should work if you already used swiftly once before.
 $ nix run github:josh/swift-nix#swiftly install latest
 ```
