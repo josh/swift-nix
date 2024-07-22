@@ -18,3 +18,7 @@ jobs:
       - name: Check flake
         run: |
           nix flake check --all-systems
+
+      - name: Test swiftly
+        run: |
+          nix run .#swiftly -- --help
