@@ -72,18 +72,22 @@
 
               swift-project-src =
                 let
-                  sources = (import ./sources.nix) {
-                    inherit lib;
-                    inherit (pkgs) fetchFromGitHub;
-                  };
+                  sourcesLock = builtins.fromJSON (builtins.readFile ./sources.json);
+                  fetchSource =
+                    source:
+                    pkgs.fetchFromGitHub {
+                      inherit (source.locked) owner repo rev;
+                      sha256 = source.locked.narHash;
+                    };
+                  sources = lib.mapAttrs (_: repos: (lib.mapAttrs (_: fetchSource) repos)) sourcesLock;
                 in
                 pkgs.stdenv.mkDerivation {
                   name = "swift-project";
                   unpackPhase = ''
                     mkdir -p $out
-                    cp -r ${sources.llvm-project} $out/llvm-project
-                    cp -r ${sources.swift-cmark} $out/swift-cmark
-                    cp -r ${sources.swift} $out/swift
+                    cp -r ${sources."5.8".llvm-project} $out/llvm-project
+                    cp -r ${sources."5.8".cmark} $out/cmark
+                    cp -r ${sources."5.8".swift} $out/swift
                   '';
                   dontPatch = true;
                   dontConfigure = true;
