@@ -99,7 +99,7 @@
                   ) sources;
 
                   # Try to get things working with a specific version to start
-                  version = "5.8";
+                  version = "5.10";
                 in
                 pkgs.stdenv.mkDerivation {
                   pname = "swift-toolchain";
