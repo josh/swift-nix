@@ -10,11 +10,11 @@ def fetch_update_checkout_config():
     return json.loads(content)
 
 
-def update_sources_json(version, repo, obj):
+def update_sources_json(version, repo, node):
     sources = json.load(open("sources.json"))
     if version not in sources:
         sources[version] = {}
-    sources[version][repo] = obj
+    sources[version][repo] = node
     with open("sources.json", "w") as f:
         json.dump(sources, f, indent=2)
         f.write("\n")
@@ -38,5 +38,6 @@ for schema, value in checkouts["branch-schemes"].items():
         print(f"fetch {flake_uri}")
         command = ["nix", "flake", "prefetch", "--json", flake_uri]
         result = subprocess.check_output(command)
-        flake = json.loads(result)
-        update_sources_json(schema, repo, flake)
+        node = json.loads(result)
+        del nod["storePath"]
+        update_sources_json(schema, repo, node)

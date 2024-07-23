@@ -15,8 +15,7 @@
         "ref": "swift/release/6.0",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/kyxbi02fbs82qwn89y4890knwkbmby0c-source"
+      }
     },
     "swift-llvm-bindings": {
       "hash": "sha256-zaEmzuQZLskIZuWeyJLOZc4hGTU7t0wWLjnGrRz2NYo=",
@@ -33,8 +32,7 @@
         "ref": "swift/release/6.0",
         "repo": "swift-llvm-bindings",
         "type": "github"
-      },
-      "storePath": "/nix/store/pjx1dqfrbl8xs61b2i9zbk2hbzzvalyx-source"
+      }
     },
     "swift": {
       "hash": "sha256-+6qel3571Nf1e4hIdy7L89zbBD8ynXyl81TjIkxLNIk=",
@@ -51,8 +49,7 @@
         "ref": "release/6.0",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/qpd9yms1llam8gzlsbml5x0r98n9igz6-source"
+      }
     },
     "cmark": {
       "hash": "sha256-b/igbZbHFXK/SqS84UGWsUoVjChNFBb0t0w4HoPTguE=",
@@ -69,8 +66,7 @@
         "ref": "release/6.0",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/rkkm14nzp6109wgfp8mdvnnj085dj1n6-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-beJ8jxJZoFRjgwS2+hbRBxFmuw38yLRjjLjzzEGy7vs=",
@@ -87,8 +83,7 @@
         "ref": "release/6.0",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/dim7qjymwz9nh42dm269kyhvvg8acnaj-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-Uw0DedQqme/oq3iseUkq8RWpYaqX6CfwbYIedZMR9Ms=",
@@ -105,8 +100,7 @@
         "ref": "release/6.0",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/xciycnfz92ar35n880d2yinbp9cp8vvj-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-pcP7sPKvinnUrhQIjz1Qka7kQld5R1LV0awonojsCp0=",
@@ -123,8 +117,7 @@
         "ref": "release/6.0",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/c5bby31px0hsyibf72iax24si9n58l9z-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-qEJ329hqQyQVxtHScD7qPmWW9ZDf9bX+4xgpDlX0w5A=",
@@ -141,8 +134,7 @@
         "ref": "1.2.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/ab296c8sqwp9hgrvay16cap2b01b1y8i-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-Ho3/BDUwAVGG26u8Jz2j1mwqFRcLc+DTlqTyGelM+Gc=",
@@ -159,8 +151,7 @@
         "ref": "1.2.0",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/0665z5zim9cfkn1pgv1z6xmfkcbdmn31-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-Lomz4BOsTN4MDKBL3pnfkbQQ6QelzUKE2Hw1YGUruZg=",
@@ -177,8 +168,7 @@
         "ref": "1.1.2",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/1ywra4nwgmxs5z1lrcp7395g9dnk7xai-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-lcB497b/T1bHShPrjNjHthrs76pDFpU+4uN0uW4tz+4=",
@@ -195,8 +185,7 @@
         "ref": "3.0.0",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/bfvdlp9cccqqxax7j74zmvq70fda4wpc-source"
+      }
     },
     "swift-certificates": {
       "hash": "sha256-n5dE5J8f7PAVoJkIpiKrrDvB0xIil5VwtzC2mx6vz80=",
@@ -213,8 +202,7 @@
         "ref": "1.0.1",
         "repo": "swift-certificates",
         "type": "github"
-      },
-      "storePath": "/nix/store/zs088z1761q6lcw10rlldaazaq9fd2qp-source"
+      }
     },
     "swift-asn1": {
       "hash": "sha256-66NK8Qw7A6JAGeRDHODEhRP8yoCewYwK7zYc1uB1j5g=",
@@ -231,8 +219,7 @@
         "ref": "1.0.0",
         "repo": "swift-asn1",
         "type": "github"
-      },
-      "storePath": "/nix/store/k9zs6ap94qm0blsamnc50pj2cladfgy0-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-YBLBgr93hjb2EX1Zsfw0A1GVp7j2p28gvDof9xbP6cc=",
@@ -249,8 +236,7 @@
         "ref": "release/6.0",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/3b56qgvcljny7ishcfdqq842sxjkd091-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-D4cOMa26NYhVzRz3le5CPydn9qEFbFLAqgonPRB0cVo=",
@@ -267,8 +253,7 @@
         "ref": "1.0.2",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/7ih8301c7wsl09pmlxwkxz6wmbmaf27y-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-Yz8DDR4u8h9W5pkrQlPYPim+0C+noF9zpJcMuqAB1+8=",
@@ -285,8 +270,7 @@
         "ref": "release/6.0",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/3n941sgmg2wxdx02z5lxpbikfxl81w8k-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-m8ZryRuaaXqw1jpBNhw5rw0AgragnsH1BxDi7tRsjOk=",
@@ -303,8 +287,7 @@
         "ref": "1.3.0",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/ksrm321wjcswz2xksryl0a9l5a88l1i4-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-zYgM3Q/+6WaTD9RcIt/VFKJfaQgRL89W9fcTVIwiufc=",
@@ -321,8 +304,7 @@
         "ref": "release/6.0",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/llc5ickxlnid43b9b72ibdq6sr5z6sv0-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-pcDH8YqD82sj7gaCTKkU+2bMp5/XdGQhK58odflsqDg=",
@@ -339,8 +321,7 @@
         "ref": "release/6.0",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/wgfpg42y0820049v6p4kq1pi398ibjaq-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-e7QGNUUTtmjy860DG1f8Ezl+Jjde7XYF+zYn4YnxUwU=",
@@ -357,8 +338,7 @@
         "ref": "release/6.0",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/q9van1dyrcfxj8an2cf75ciwikgn09nw-source"
+      }
     },
     "swift-foundation": {
       "hash": "sha256-kHm5bzwh6f/dmyrfkERgR8403BBPahgvfuzraWqWuAk=",
@@ -375,8 +355,7 @@
         "ref": "release/6.0",
         "repo": "swift-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/569vh1xyqgzrbibm3r78xp12111y6dnj-source"
+      }
     },
     "swift-foundation-icu": {
       "hash": "sha256-aBs4/k/T6AONU7vRposyj0rpdXWXL0RnnTMtTuOQl2s=",
@@ -393,8 +372,7 @@
         "ref": "release/6.0",
         "repo": "swift-foundation-icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/yj1ddc9fkly9acv8j6vx1rs61a8r6nch-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-vZ0JddR31wyFOjmSqEuzIJNBQIUgcLpjabbnlSF3LqY=",
@@ -411,8 +389,7 @@
         "ref": "release/6.0",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/48vv41115cszlxq5lkqcm7k33900dr96-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-QdfggWqkY81P5f/j5SK2MJ2Rc/q2Yjkqp6n36aSyaTg=",
@@ -429,8 +406,7 @@
         "ref": "release/6.0",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/2z7fyzzv369y2bcrx4nanj2hpkiih9f3-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-esv5h1SLs/oy7hr4CwhnHufwlBxu2Q+gfbTYU/LlkyE=",
@@ -447,8 +423,7 @@
         "ref": "release/6.0",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/dbg2ka0jib6lm08mjnkns3kkhq3zn2mk-source"
+      }
     },
     "ninja": {
       "hash": "sha256-LvV/Fi2ARXBkfyA1paCRmLUwCh/rTyz+tGMg2/qEepI=",
@@ -465,8 +440,7 @@
         "ref": "v1.11.1",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/nqgbichcldbrvingbmhcyymh2xydghmr-source"
+      }
     },
     "yams": {
       "hash": "sha256-AY/fIvB7THrl9GWzGJL8eDBbkcLw27tSRTGtUqmYw8k=",
@@ -483,8 +457,7 @@
         "ref": "5.0.6",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/2ypy05i94g4hgqbd434prwf4dy83yryj-source"
+      }
     },
     "cmake": {
       "hash": "sha256-3RAmxoX2zaKlg2yj3fTWMfBhj0TFNdVKQfJyG0epVg4=",
@@ -501,8 +474,7 @@
         "ref": "v3.24.2",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/c1k6ccngfzifz5xl445j9n99r5f72ii7-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-OP0+qCXc+Z5+Lz5h/1T6JvPbOjdoPEpZ7yGVWbWYxGw=",
@@ -519,8 +491,7 @@
         "ref": "release/6.0",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/32nijwfiwb0zd2gccz1ykjfgylh89gxy-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-gq264QFpCsNXsDe2MM00MgcgFGeqAdKvv7YxxkxKhZY=",
@@ -537,8 +508,7 @@
         "ref": "release/6.0",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/7bfhh81s1fzvyibj9zf7f4fhvn4gvri7-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-k8ag98daXuJwNloXByH1syTvugLZ13Wtq7TtyQ9HbLQ=",
@@ -555,8 +525,7 @@
         "ref": "release/6.0",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/h8gkm5b59mr6myymffyjsmm91l3z4ssz-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-exEbDA55Eoeaqqc8rqvuNujZxCHAilWQkxyov4qiGQ8=",
@@ -573,8 +542,7 @@
         "ref": "release/6.0",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/a50qj1b9f8h6dz3yhf61zy0wlinhypgq-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-8i3hIgjDLOtFRt+jlU2ubvFeYkmmsYpal3zPsnHL8fc=",
@@ -591,8 +559,7 @@
         "ref": "release/6.0",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/4cy86lv5v9df8ig2n11rbnsv2v33chbg-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-zcnteU8c+iGaUBxWYT9IDbHrdAE12HDlgy1MwdAk1Pk=",
@@ -609,8 +576,7 @@
         "ref": "release/6.0",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/2rh6f7b6wrva64ay4h69226yikcr1xc1-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-5JpzEY6Hj6/uv6NTy5YME3KJwhUO36eHjAHaCrw9y7U=",
@@ -627,8 +593,7 @@
         "ref": "release/6.0",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/ryznpys7faxymyhzfr985pr25mrxvjdh-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-fAPFGiwZv4RDxrxEihkqJXcWg1AJRIbxKiV8+jkhHT0=",
@@ -645,8 +610,7 @@
         "ref": "release/6.0",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/mipc9rm3jvz6bg70zwwqkv62qphcplsc-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-vvbnoEV6CLJe7y8q25Cfp6ak1a+HLEwBJWgZHJnH9hU=",
@@ -663,8 +627,7 @@
         "ref": "release/6.0",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/vl6qfkxsh4rqjp9nsgrkwkambcrr68m2-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -681,8 +644,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -699,8 +661,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     },
     "swift-experimental-string-processing": {
       "hash": "sha256-lK/teda9uti2vRSOBHY0OklnEsrv46RYnlw5/qNDl5w=",
@@ -717,8 +678,7 @@
         "ref": "swift/release/6.0",
         "repo": "swift-experimental-string-processing",
         "type": "github"
-      },
-      "storePath": "/nix/store/qzd7a17lxr0xs666nz0m1vdjqxm6miql-source"
+      }
     },
     "wasi-libc": {
       "hash": "sha256-Km0HPHXFfN373zW+jdND7vB4/R589uXPe5KcvmAN+nw=",
@@ -735,8 +695,7 @@
         "ref": "wasi-sdk-20",
         "repo": "wasi-libc",
         "type": "github"
-      },
-      "storePath": "/nix/store/ybwgamf284nl15n50n8j3ijfs2yr06q2-source"
+      }
     },
     "wasmkit": {
       "hash": "sha256-fX41ehcUnTMnwqTEGqxp9+SZ80q4yBdPQhBo/SQ3AL4=",
@@ -753,8 +712,7 @@
         "ref": "0.0.3",
         "repo": "WasmKit",
         "type": "github"
-      },
-      "storePath": "/nix/store/fpf06r11vb8w894jfxy7fkdb1840ah9j-source"
+      }
     },
     "curl": {
       "hash": "sha256-2sAnQKWk67MNR2pFQGDN1mQ6re+A9we3oPkM6bZAmYw=",
@@ -771,8 +729,7 @@
         "ref": "curl-8_4_0",
         "repo": "curl",
         "type": "github"
-      },
-      "storePath": "/nix/store/7gqb78f46f0shm238cq577xzly44ha6f-source"
+      }
     },
     "icu": {
       "hash": "sha256-Pf8wbeWyWOqdHQbOoTsHMktinUxdc8eXWrOLCqZ0IJU=",
@@ -789,8 +746,7 @@
         "ref": "maint/maint-69",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/48av9dm9as78lfls74b78cyl1n3dkiiz-source"
+      }
     },
     "libxml2": {
       "hash": "sha256-2SEzGhMeIHoHe9EKV6LgPLBXdmrxWWgnLYwUMZFWxNQ=",
@@ -807,8 +763,7 @@
         "ref": "v2.11.5",
         "repo": "libxml2",
         "type": "github"
-      },
-      "storePath": "/nix/store/50dxm6nxfy99dh27ryki6n8rhxfxrfjx-source"
+      }
     },
     "zlib": {
       "hash": "sha256-eUuXV5zfy+fmiMNdWw5QCqDloBkaxy1tgi7by9nYHNA=",
@@ -825,8 +780,7 @@
         "ref": "v1.3",
         "repo": "zlib",
         "type": "github"
-      },
-      "storePath": "/nix/store/1piikvs3n4xirz0v5r64c7p5brb3cgqh-source"
+      }
     }
   },
   "5.10": {
@@ -845,8 +799,7 @@
         "ref": "swift/release/5.10",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/m97w3njqxjg2hcipnwmqk45b3wfi2x0y-source"
+      }
     },
     "swift-llvm-bindings": {
       "hash": "sha256-87taAyf52FdH0ERCbvZFqNvCHzeLdCS1rSXBh+mrfkI=",
@@ -863,8 +816,7 @@
         "ref": "swift/release/5.10",
         "repo": "swift-llvm-bindings",
         "type": "github"
-      },
-      "storePath": "/nix/store/zxnqiw41v142yvx9l4n2l2rsl6h8xamv-source"
+      }
     },
     "swift": {
       "hash": "sha256-tIOTuyx2Qm8Xq1J+kBzCsPVnD/IL9XJUzr5XoYoU00o=",
@@ -881,8 +833,7 @@
         "ref": "release/5.10",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/f1zdfy0pjnl9c24alq7vfh0prz3ympcp-source"
+      }
     },
     "cmark": {
       "hash": "sha256-GK2tFu49Sw8jJWJpxQerVFqsuUJwkAhRloa2/aUTYB8=",
@@ -899,8 +850,7 @@
         "ref": "release/5.10",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/rbssc9x0dimyi0gxbc9jdfw6f4gjbb18-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-kUm8/+DWDBhuqU/kJBleqSl8/Vz478pMhx5QK2g7k0o=",
@@ -917,8 +867,7 @@
         "ref": "release/5.10",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/vcpjzdnknn0zyx5sz9ai8565h9g7q4q7-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-Pqy01AyDg7ZTyDM6lV69e6nhfhxwFTOhGFTfhcA1e9E=",
@@ -935,8 +884,7 @@
         "ref": "release/5.10",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/0dm1zzs1lgpvj158h1sf66zmnrm7cfdx-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-7jkAum4nJj9ofVRF3RZDXAR6PyAjORPMnftTNnUrA+U=",
@@ -953,8 +901,7 @@
         "ref": "release/5.10",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/768hrk977vgsl2rs770skccff9ld0hcq-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-qEJ329hqQyQVxtHScD7qPmWW9ZDf9bX+4xgpDlX0w5A=",
@@ -971,8 +918,7 @@
         "ref": "1.2.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/ab296c8sqwp9hgrvay16cap2b01b1y8i-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-6fMm8q57/KUS+1xRKzCWO+a45tAxK6SKrhXwOuxhZas=",
@@ -989,8 +935,7 @@
         "ref": "1.0.2",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/909lgw5v94adyqdly4gbg55maa7fs72n-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-2GcZXxwHpaxoN/ua6J4oEKNi1fCBpAox3nP13oXeooU=",
@@ -1007,8 +952,7 @@
         "ref": "1.0.5",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/sx48a6v9majlafm049vadd2pdmijbjci-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-lcB497b/T1bHShPrjNjHthrs76pDFpU+4uN0uW4tz+4=",
@@ -1025,8 +969,7 @@
         "ref": "3.0.0",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/bfvdlp9cccqqxax7j74zmvq70fda4wpc-source"
+      }
     },
     "swift-certificates": {
       "hash": "sha256-n5dE5J8f7PAVoJkIpiKrrDvB0xIil5VwtzC2mx6vz80=",
@@ -1043,8 +986,7 @@
         "ref": "1.0.1",
         "repo": "swift-certificates",
         "type": "github"
-      },
-      "storePath": "/nix/store/zs088z1761q6lcw10rlldaazaq9fd2qp-source"
+      }
     },
     "swift-asn1": {
       "hash": "sha256-66NK8Qw7A6JAGeRDHODEhRP8yoCewYwK7zYc1uB1j5g=",
@@ -1061,8 +1003,7 @@
         "ref": "1.0.0",
         "repo": "swift-asn1",
         "type": "github"
-      },
-      "storePath": "/nix/store/k9zs6ap94qm0blsamnc50pj2cladfgy0-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-Xaz9gZuOspDb+PB67d6tXfpcs+kkDCPSkhu+eIfrb0A=",
@@ -1079,8 +1020,7 @@
         "ref": "release/5.10",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/0h4phabr08rzdw5c9jssy42q3npa3vpg-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-wGIJ4hMxIBHy8mqmUGFWPR56wPFlI5qS4N7+nsFqLbs=",
@@ -1097,8 +1037,7 @@
         "ref": "1.0.1",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/n55gvmja3ffg7nz8nf1yc104lzn64idf-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-OcrOdlnLYpMxH5CGWNGbs5XW3gJaGgKWQqB9YtwmZeY=",
@@ -1115,8 +1054,7 @@
         "ref": "release/5.10",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/4dim713z5siwcyhklr4l4hfnmsy2k9qm-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-p18QHzO+NtoY/WQzOD+PfD+bjqrIWsbeEbsJLPqEAhA=",
@@ -1133,8 +1071,7 @@
         "ref": "1.1.1",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/87k90qv20mhngbkbzf39xfiawn6awz0j-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-Ccx5UhGYyqLVt0b8Wu34z+X7dC8YW9IGJC4yN1ZRECk=",
@@ -1151,8 +1088,7 @@
         "ref": "release/5.10",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/1dw4cv6rvfy3w9inabgi1ch87mks096s-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-HgnVFYUuefCZKsOjXgt98ebMsLdMl0oXFXy2Pb2iUdw=",
@@ -1169,8 +1105,7 @@
         "ref": "release/5.10",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/wh3pprhgadqr3qv1vc05fh7w0xxg3iz2-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-jEvJkpkOXphtl9He/v2KThRcmTdIUKtBDU9+ABS5EKI=",
@@ -1187,8 +1122,7 @@
         "ref": "release/5.10",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/il79lfv9j4rixw9p30nfnhi1s1jcsivi-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-pta3wJj2LJ/lsYAWQpw0wSGLDMO41mN8Zbl78LUCaQo=",
@@ -1205,8 +1139,7 @@
         "ref": "release/5.10",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/3im8rsvrilv7cbrhl2qsf1a3xpmd0jn5-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-PHO8rgxlK5VE2C7x8Bcw0Is6SgbaA9o2XBY/odEvdg4=",
@@ -1223,8 +1156,7 @@
         "ref": "release/5.10",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/460i9j5awhxxjyxfbzp509ahljm0mpp4-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-esv5h1SLs/oy7hr4CwhnHufwlBxu2Q+gfbTYU/LlkyE=",
@@ -1241,8 +1173,7 @@
         "ref": "release/5.10",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/dbg2ka0jib6lm08mjnkns3kkhq3zn2mk-source"
+      }
     },
     "ninja": {
       "hash": "sha256-LvV/Fi2ARXBkfyA1paCRmLUwCh/rTyz+tGMg2/qEepI=",
@@ -1259,8 +1190,7 @@
         "ref": "v1.11.1",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/nqgbichcldbrvingbmhcyymh2xydghmr-source"
+      }
     },
     "yams": {
       "hash": "sha256-AY/fIvB7THrl9GWzGJL8eDBbkcLw27tSRTGtUqmYw8k=",
@@ -1277,8 +1207,7 @@
         "ref": "5.0.6",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/2ypy05i94g4hgqbd434prwf4dy83yryj-source"
+      }
     },
     "cmake": {
       "hash": "sha256-3RAmxoX2zaKlg2yj3fTWMfBhj0TFNdVKQfJyG0epVg4=",
@@ -1295,8 +1224,7 @@
         "ref": "v3.24.2",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/c1k6ccngfzifz5xl445j9n99r5f72ii7-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-2EIzEaVLHZ5vwO8skTaq9HoAaLuT9WFVLMgcgGYuVAk=",
@@ -1313,8 +1241,7 @@
         "ref": "release/5.10",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/bhg93irwns7rbl1yz321c8z9k68yah00-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-mMZ8zPkyoht0aSSnStIULWbLjowahdza9DQXboT1D0o=",
@@ -1331,8 +1258,7 @@
         "ref": "release/5.10",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/ir4vc8n1a62bqk2calhm2v2zjxwscz13-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-oYf9Qt0b/6G3+uQaoExQRKzgpi1RPYSSpZLfwhuRmF8=",
@@ -1349,8 +1275,7 @@
         "ref": "release/5.10",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/281hkb3qh9f587yfwdy26vk3ibhps7nz-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-qsMRzlrbBRo84tWGFnLJUCgac6p682l5NHXAjAv6120=",
@@ -1367,8 +1292,7 @@
         "ref": "release/5.10",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/cvazwj1m84bmadj1p9qd65bvd7hsl3j4-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-zgGahAanYI95nQZ+3zAYrs0h4APNamPrZfwF81k1si0=",
@@ -1385,8 +1309,7 @@
         "ref": "release/5.10",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/9vi6nf5ls6caxf5ba5i5wknzq3v9n934-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-dZDN2pBOE0ZPtneQvEjF+AE4PDwbcaTausR2W4lg9Ss=",
@@ -1403,8 +1326,7 @@
         "ref": "release/5.10",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/7hmsjf2y3qj9h0s1px15q5c4q9jc393m-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-Ky9l6tzAxQOpcPFq2FeGnFUl8i59TifRBSHNaZg8wfw=",
@@ -1421,8 +1343,7 @@
         "ref": "release/5.10",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/gh6y7qm21js0hmjzndzi2dgvxl6ksvxq-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-hAcoe57wE9gkPc1E/lXY41W+Eh3a7cUWfRv3Xi4rO2M=",
@@ -1439,8 +1360,7 @@
         "ref": "release/5.10",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/jwb9qj0jn0mr04jgc3zsvffgw6zw8sdc-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-zntzy7N6QJjDC+avnazYkV18NW6FQbqDvWsBtqCjwP8=",
@@ -1457,8 +1377,7 @@
         "ref": "release/5.10",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/xrbf99anpa7l3kynnhxzj35rd8jw8v9i-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -1475,8 +1394,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -1493,8 +1411,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     },
     "swift-experimental-string-processing": {
       "hash": "sha256-gv3xY9s6gdv0lpXH8RGfiLAvZWM7xVsUSLcqyb4rSeQ=",
@@ -1511,8 +1428,7 @@
         "ref": "swift/release/5.10",
         "repo": "swift-experimental-string-processing",
         "type": "github"
-      },
-      "storePath": "/nix/store/686am58qdhdwlnygj3hr32997wfdhc0l-source"
+      }
     },
     "curl": {
       "hash": "sha256-2sAnQKWk67MNR2pFQGDN1mQ6re+A9we3oPkM6bZAmYw=",
@@ -1529,8 +1445,7 @@
         "ref": "curl-8_4_0",
         "repo": "curl",
         "type": "github"
-      },
-      "storePath": "/nix/store/7gqb78f46f0shm238cq577xzly44ha6f-source"
+      }
     },
     "icu": {
       "hash": "sha256-Pf8wbeWyWOqdHQbOoTsHMktinUxdc8eXWrOLCqZ0IJU=",
@@ -1547,8 +1462,7 @@
         "ref": "maint/maint-69",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/48av9dm9as78lfls74b78cyl1n3dkiiz-source"
+      }
     },
     "libxml2": {
       "hash": "sha256-2SEzGhMeIHoHe9EKV6LgPLBXdmrxWWgnLYwUMZFWxNQ=",
@@ -1565,8 +1479,7 @@
         "ref": "v2.11.5",
         "repo": "libxml2",
         "type": "github"
-      },
-      "storePath": "/nix/store/50dxm6nxfy99dh27ryki6n8rhxfxrfjx-source"
+      }
     },
     "zlib": {
       "hash": "sha256-eUuXV5zfy+fmiMNdWw5QCqDloBkaxy1tgi7by9nYHNA=",
@@ -1583,8 +1496,7 @@
         "ref": "v1.3",
         "repo": "zlib",
         "type": "github"
-      },
-      "storePath": "/nix/store/1piikvs3n4xirz0v5r64c7p5brb3cgqh-source"
+      }
     }
   },
   "5.9": {
@@ -1603,8 +1515,7 @@
         "ref": "swift/release/5.9",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/m3gjq6fxw8jx53prcw4i3dpgj9pl1i3q-source"
+      }
     },
     "swift-llvm-bindings": {
       "hash": "sha256-87taAyf52FdH0ERCbvZFqNvCHzeLdCS1rSXBh+mrfkI=",
@@ -1621,8 +1532,7 @@
         "ref": "swift/release/5.9",
         "repo": "swift-llvm-bindings",
         "type": "github"
-      },
-      "storePath": "/nix/store/zxnqiw41v142yvx9l4n2l2rsl6h8xamv-source"
+      }
     },
     "swift": {
       "hash": "sha256-OxGqEUAt+fv5JW6MvQRJ42RzBjeQjCKMhNj7JKvpo9k=",
@@ -1639,8 +1549,7 @@
         "ref": "release/5.9",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/21cl39i6sydwrg98n8d0wpq6k41bba1z-source"
+      }
     },
     "cmark": {
       "hash": "sha256-qJpDdwGFf4AwSBsSGJ5yTMh8pr+Xvf0HftWS0NPxQB8=",
@@ -1657,8 +1566,7 @@
         "ref": "release/5.9",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/xpndc8nkcqgyjcm0qqjvfvpyxpbbgnvk-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-wxIpYupJpU0QkAUV/HBmLoWQKGDytIhDOOLzLRjXnw0=",
@@ -1675,8 +1583,7 @@
         "ref": "release/5.9",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/nxgw7agk02b24kn48fa66yc7nq65ddcr-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-M6ftbtPayZk6lkU1O8J5KdQOb1Xfo+LldrtkVUQnCHY=",
@@ -1693,8 +1600,7 @@
         "ref": "release/5.9",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/xwc4fc38cgng533m9sms8bl81mp5byf8-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-u54/P6qRpKloakBlq+fWqrVhg4RYjxBtDPp281VopwU=",
@@ -1711,8 +1617,7 @@
         "ref": "release/5.9",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/y52dnsqwq6yrakrdknv90ykzha836ln4-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-G4Tz/AdL5WbRq93aJnQhMjHLH7dEuhmXL3PPn+0H6vM=",
@@ -1729,8 +1634,7 @@
         "ref": "1.2.2",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/bblpvnc435n2zkwrvq5bf6i8fwh3368w-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-6fMm8q57/KUS+1xRKzCWO+a45tAxK6SKrhXwOuxhZas=",
@@ -1747,8 +1651,7 @@
         "ref": "1.0.2",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/909lgw5v94adyqdly4gbg55maa7fs72n-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-vd3yaYKG0xIeH1sCSlNuQUB38NNFzr6C1lme+MUg70w=",
@@ -1765,8 +1668,7 @@
         "ref": "1.0.1",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/5c72hbdxnq53abn7zagdskkqmms7psrj-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-vBDjXtynl3HMq1RK/hMOu36b+0hX2SRRnwhPNjPUOsU=",
@@ -1783,8 +1685,7 @@
         "ref": "2.5.0",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/2in9x9vfhb6hd86ail0x90bq0q6y1njm-source"
+      }
     },
     "swift-certificates": {
       "hash": "sha256-8hy+uMgPJuaoXBwuri8DseVM7eci9YAAv/HuUFbHPTo=",
@@ -1801,8 +1702,7 @@
         "ref": "0.4.1",
         "repo": "swift-certificates",
         "type": "github"
-      },
-      "storePath": "/nix/store/7634dkqwpy176xkxjh8gbdz4jydkzz31-source"
+      }
     },
     "swift-asn1": {
       "hash": "sha256-jUQ/EewNzssb08IHDZDNhlntv4ACso1hzy6OKpg5n0I=",
@@ -1819,8 +1719,7 @@
         "ref": "0.7.0",
         "repo": "swift-asn1",
         "type": "github"
-      },
-      "storePath": "/nix/store/b6lnkrf4pg2ik6gakzrps02i6his7ljq-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-bZRw/YE6yNS4YLf4R4RvfrH5NzgiD2OEpSMeQRICAtQ=",
@@ -1837,8 +1736,7 @@
         "ref": "release/5.9",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/w6pza0wzc33cfd78vn0h6qyfdj7356jf-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-wGIJ4hMxIBHy8mqmUGFWPR56wPFlI5qS4N7+nsFqLbs=",
@@ -1855,8 +1753,7 @@
         "ref": "1.0.1",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/n55gvmja3ffg7nz8nf1yc104lzn64idf-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-yc7pPnBVdFC9lIJ3IwrMI72Rp8BRsQleuK1rtH3x7+0=",
@@ -1873,8 +1770,7 @@
         "ref": "release/5.9",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/4iwsjh0qx78qnr95ivksplbk5ak8hqn5-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-p18QHzO+NtoY/WQzOD+PfD+bjqrIWsbeEbsJLPqEAhA=",
@@ -1891,8 +1787,7 @@
         "ref": "1.1.1",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/87k90qv20mhngbkbzf39xfiawn6awz0j-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-m/1gnOoZusgSpC0mrNe3iVBPhgKofGlg51AVQXH+LXo=",
@@ -1909,8 +1804,7 @@
         "ref": "release/5.9",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/kga5hp4m3q3nm3didr2kshb25368v1mq-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-5khqzW4YwZHESiV1lmxlPe6kO4GhYsY6LLxvvcbDOEA=",
@@ -1927,8 +1821,7 @@
         "ref": "release/5.9",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/py1mqbwdyin3xk5x4jdhd4ka4jis445h-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-9EBBzX4DpjfJHaRp6QWBuMIOFKASrgrt3ILD6aRPzHM=",
@@ -1945,8 +1838,7 @@
         "ref": "release/5.9",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/c93fdcsbsh42f838gs6xgxxic8cncqii-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-pta3wJj2LJ/lsYAWQpw0wSGLDMO41mN8Zbl78LUCaQo=",
@@ -1963,8 +1855,7 @@
         "ref": "release/5.9",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/3im8rsvrilv7cbrhl2qsf1a3xpmd0jn5-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-nx1emv1Y02zN6SVXFnxhBa7WavbnC5Rw6bwo5qQc1Ww=",
@@ -1981,8 +1872,7 @@
         "ref": "release/5.9",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/zlqv6srhdlrjr97vmjglx86bbpxfddr3-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-esv5h1SLs/oy7hr4CwhnHufwlBxu2Q+gfbTYU/LlkyE=",
@@ -1999,8 +1889,7 @@
         "ref": "release/5.9",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/dbg2ka0jib6lm08mjnkns3kkhq3zn2mk-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -2017,8 +1906,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -2035,8 +1923,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-5qxuCkmopm3uFcoYJKQA8ofW98f53H1gZaPiOh2DS4U=",
@@ -2053,8 +1940,7 @@
         "ref": "5.0.1",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/mvph4s898clk8b7lw99i1k404qc5sibr-source"
+      }
     },
     "cmake": {
       "hash": "sha256-jaPm1KcK/80ahoIyDP5txEQ3Fihqmwr5DnCz8frzWyk=",
@@ -2071,8 +1957,7 @@
         "ref": "v3.19.6",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/q33ag1h91apl3jlp0y8ff7q2gn92gc0s-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-2EIzEaVLHZ5vwO8skTaq9HoAaLuT9WFVLMgcgGYuVAk=",
@@ -2089,8 +1974,7 @@
         "ref": "release/5.9",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/bhg93irwns7rbl1yz321c8z9k68yah00-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-YG8TMLLvb5UwgV3wiwgomjk267TEHQV0PNw2OuVugbg=",
@@ -2107,8 +1991,7 @@
         "ref": "release/5.9",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/6l7zlfazpwhsar3x6mp99xh7nn05ic50-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-TnDZUexCkVxGwcpgsCR2E4fS7kNecP7Sl4wfWk6Ghnw=",
@@ -2125,8 +2008,7 @@
         "ref": "release/5.9",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/6m3indlg96g020c6y9i3j2w59x1sqjxi-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-s57ABZ1GJkJ7bfOfeyIY1H+fbnCF9MnhndoGf4pr5tw=",
@@ -2143,8 +2025,7 @@
         "ref": "release/5.9",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/24gyvc4cwq7h7zdfjrlwgxszspbmpx9d-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-EXkVgI1hxwa1iu6cBcnHDAhT+oTF4U9cgJ3lKlPSR8c=",
@@ -2161,8 +2042,7 @@
         "ref": "release/5.9",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/2zdxapsz5326ynl7dffq7ln0x1169bp4-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-dZDN2pBOE0ZPtneQvEjF+AE4PDwbcaTausR2W4lg9Ss=",
@@ -2179,8 +2059,7 @@
         "ref": "release/5.9",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/7hmsjf2y3qj9h0s1px15q5c4q9jc393m-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-zmeUjawNzhNB0psR85EKaRIhW++NAgrBifhm3TeMYy0=",
@@ -2197,8 +2076,7 @@
         "ref": "release/5.9",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/4xi9pcs2d6jjl7pp3a59capmqa9y3h5d-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-wZEcUSjjX79K1v4kzaGWNyXvKTtoWhVtAmLLBA2BtJs=",
@@ -2215,8 +2093,7 @@
         "ref": "release/5.9",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/g7hrlwz3mym5sqz7nqjzmqinmpkjxv6p-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-VvGNZWr3G302ue4CGJMmj28v7mJnmIn7hDhc9hbAmVY=",
@@ -2233,8 +2110,7 @@
         "ref": "release/5.9",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/hv1jvdw2c9b2gclfj4307c5mxsg1hm6s-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -2251,8 +2127,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -2269,8 +2144,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     },
     "swift-experimental-string-processing": {
       "hash": "sha256-SlP2NHidHJ0ABQ/hRqdUkqJgBPvy1DHZCGEEgxz4Nrw=",
@@ -2287,8 +2161,7 @@
         "ref": "swift/release/5.9",
         "repo": "swift-experimental-string-processing",
         "type": "github"
-      },
-      "storePath": "/nix/store/n1gsbwrchkgila7zxf65cf88a1562h2z-source"
+      }
     }
   },
   "5.9.1": {
@@ -2307,8 +2180,7 @@
         "ref": "swift/release/5.9.1",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/2hyf6iziilm2gbrz2yz8lb5ibgyzvwp1-source"
+      }
     },
     "swift-llvm-bindings": {
       "hash": "sha256-87taAyf52FdH0ERCbvZFqNvCHzeLdCS1rSXBh+mrfkI=",
@@ -2325,8 +2197,7 @@
         "ref": "swift/release/5.9.1",
         "repo": "swift-llvm-bindings",
         "type": "github"
-      },
-      "storePath": "/nix/store/zxnqiw41v142yvx9l4n2l2rsl6h8xamv-source"
+      }
     },
     "swift": {
       "hash": "sha256-Vs1DVglGYbF8/e8efzqtaKpCCjEOiUVEDktuL31MYH4=",
@@ -2343,8 +2214,7 @@
         "ref": "release/5.9.1",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/58lb37j3wdglji0s8zqac6napv4nzd5n-source"
+      }
     },
     "cmark": {
       "hash": "sha256-qJpDdwGFf4AwSBsSGJ5yTMh8pr+Xvf0HftWS0NPxQB8=",
@@ -2361,8 +2231,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/xpndc8nkcqgyjcm0qqjvfvpyxpbbgnvk-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-wxIpYupJpU0QkAUV/HBmLoWQKGDytIhDOOLzLRjXnw0=",
@@ -2379,8 +2248,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/nxgw7agk02b24kn48fa66yc7nq65ddcr-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-b7O1B8GMq5ybZ3RRNqg2aynB1VfGz17T6cwNn90XDhc=",
@@ -2397,8 +2265,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/ysb2rsyfs8ah1g1hmzdbxawjsxw6fkq2-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-ENYPXhIofl8YXW64LWWmEFSzM/rMRsTU5eY7cP6NXbk=",
@@ -2415,8 +2282,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/49i5inqxw4zhkxlwf0lf2400yjzxbzs4-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-G4Tz/AdL5WbRq93aJnQhMjHLH7dEuhmXL3PPn+0H6vM=",
@@ -2433,8 +2299,7 @@
         "ref": "1.2.2",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/bblpvnc435n2zkwrvq5bf6i8fwh3368w-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-6fMm8q57/KUS+1xRKzCWO+a45tAxK6SKrhXwOuxhZas=",
@@ -2451,8 +2316,7 @@
         "ref": "1.0.2",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/909lgw5v94adyqdly4gbg55maa7fs72n-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-vd3yaYKG0xIeH1sCSlNuQUB38NNFzr6C1lme+MUg70w=",
@@ -2469,8 +2333,7 @@
         "ref": "1.0.1",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/5c72hbdxnq53abn7zagdskkqmms7psrj-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-vBDjXtynl3HMq1RK/hMOu36b+0hX2SRRnwhPNjPUOsU=",
@@ -2487,8 +2350,7 @@
         "ref": "2.5.0",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/2in9x9vfhb6hd86ail0x90bq0q6y1njm-source"
+      }
     },
     "swift-certificates": {
       "hash": "sha256-8hy+uMgPJuaoXBwuri8DseVM7eci9YAAv/HuUFbHPTo=",
@@ -2505,8 +2367,7 @@
         "ref": "0.4.1",
         "repo": "swift-certificates",
         "type": "github"
-      },
-      "storePath": "/nix/store/7634dkqwpy176xkxjh8gbdz4jydkzz31-source"
+      }
     },
     "swift-asn1": {
       "hash": "sha256-jUQ/EewNzssb08IHDZDNhlntv4ACso1hzy6OKpg5n0I=",
@@ -2523,8 +2384,7 @@
         "ref": "0.7.0",
         "repo": "swift-asn1",
         "type": "github"
-      },
-      "storePath": "/nix/store/b6lnkrf4pg2ik6gakzrps02i6his7ljq-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-bZRw/YE6yNS4YLf4R4RvfrH5NzgiD2OEpSMeQRICAtQ=",
@@ -2541,8 +2401,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/w6pza0wzc33cfd78vn0h6qyfdj7356jf-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-wGIJ4hMxIBHy8mqmUGFWPR56wPFlI5qS4N7+nsFqLbs=",
@@ -2559,8 +2418,7 @@
         "ref": "1.0.1",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/n55gvmja3ffg7nz8nf1yc104lzn64idf-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-ZIBYV9x/TzMZQsa9Smw/6FrNAQDajG9FOiBWK4KP1oI=",
@@ -2577,8 +2435,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/cs3qlmi8nriykb296p353x0gy3pf3wkk-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-p18QHzO+NtoY/WQzOD+PfD+bjqrIWsbeEbsJLPqEAhA=",
@@ -2595,8 +2452,7 @@
         "ref": "1.1.1",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/87k90qv20mhngbkbzf39xfiawn6awz0j-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-m/1gnOoZusgSpC0mrNe3iVBPhgKofGlg51AVQXH+LXo=",
@@ -2613,8 +2469,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/kga5hp4m3q3nm3didr2kshb25368v1mq-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-HCAfqbytx73qo1jN3QWt5m8aApb/PmaEmlh7ZpV2SQI=",
@@ -2631,8 +2486,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/kyjmjphl08214brzcqfz5ciijznhgj7w-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-KycfttEzjFqDvpemhPOyacmvXmCJ2FHRNpekQJqxpy0=",
@@ -2649,8 +2503,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/5ah7b8r28vhkik36wcsqzhh0iajisnlg-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-TrZLw/3cPoUlMAeSUL78o/tuzczXLKc8sZw7brNFrKA=",
@@ -2667,8 +2520,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/xc4x6paln1ll4kflh6xg2467xcpjsys3-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-nx1emv1Y02zN6SVXFnxhBa7WavbnC5Rw6bwo5qQc1Ww=",
@@ -2685,8 +2537,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/zlqv6srhdlrjr97vmjglx86bbpxfddr3-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-esv5h1SLs/oy7hr4CwhnHufwlBxu2Q+gfbTYU/LlkyE=",
@@ -2703,8 +2554,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/dbg2ka0jib6lm08mjnkns3kkhq3zn2mk-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -2721,8 +2571,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -2739,8 +2588,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-5qxuCkmopm3uFcoYJKQA8ofW98f53H1gZaPiOh2DS4U=",
@@ -2757,8 +2605,7 @@
         "ref": "5.0.1",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/mvph4s898clk8b7lw99i1k404qc5sibr-source"
+      }
     },
     "cmake": {
       "hash": "sha256-jaPm1KcK/80ahoIyDP5txEQ3Fihqmwr5DnCz8frzWyk=",
@@ -2775,8 +2622,7 @@
         "ref": "v3.19.6",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/q33ag1h91apl3jlp0y8ff7q2gn92gc0s-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-2EIzEaVLHZ5vwO8skTaq9HoAaLuT9WFVLMgcgGYuVAk=",
@@ -2793,8 +2639,7 @@
         "ref": "release/5.9.1",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/bhg93irwns7rbl1yz321c8z9k68yah00-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-Wpw19yp7LH2BTyXYjou7Q6EeAFpOY8tYyNnMPNgQU+k=",
@@ -2811,8 +2656,7 @@
         "ref": "release/5.9.1",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/8vqdqvfvz9chdcr58d8pli1xz2nmn2i8-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-TnDZUexCkVxGwcpgsCR2E4fS7kNecP7Sl4wfWk6Ghnw=",
@@ -2829,8 +2673,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/6m3indlg96g020c6y9i3j2w59x1sqjxi-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-4l+wD12NFARxfhgqr2N1zLHnacbHvCMPw77Jd0Fg/4I=",
@@ -2847,8 +2690,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/ywc33pm6midlba1hz9gwh9bimgjf8x7z-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-EXkVgI1hxwa1iu6cBcnHDAhT+oTF4U9cgJ3lKlPSR8c=",
@@ -2865,8 +2707,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/2zdxapsz5326ynl7dffq7ln0x1169bp4-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-dZDN2pBOE0ZPtneQvEjF+AE4PDwbcaTausR2W4lg9Ss=",
@@ -2883,8 +2724,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/7hmsjf2y3qj9h0s1px15q5c4q9jc393m-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-zmeUjawNzhNB0psR85EKaRIhW++NAgrBifhm3TeMYy0=",
@@ -2901,8 +2741,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/4xi9pcs2d6jjl7pp3a59capmqa9y3h5d-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-wZEcUSjjX79K1v4kzaGWNyXvKTtoWhVtAmLLBA2BtJs=",
@@ -2919,8 +2758,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/g7hrlwz3mym5sqz7nqjzmqinmpkjxv6p-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-VvGNZWr3G302ue4CGJMmj28v7mJnmIn7hDhc9hbAmVY=",
@@ -2937,8 +2775,7 @@
         "ref": "release/5.9.1",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/hv1jvdw2c9b2gclfj4307c5mxsg1hm6s-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -2955,8 +2792,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -2973,8 +2809,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     },
     "swift-experimental-string-processing": {
       "hash": "sha256-NzmRk8M20+GO7nWZejG+D6P2vJ9s6I9SheWgPtcIxGQ=",
@@ -2991,8 +2826,7 @@
         "ref": "swift/release/5.9.1",
         "repo": "swift-experimental-string-processing",
         "type": "github"
-      },
-      "storePath": "/nix/store/qw1bany0wpm24vdqgqda35pvzps22xvw-source"
+      }
     }
   },
   "5.8": {
@@ -3011,8 +2845,7 @@
         "ref": "swift/release/5.8",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/s5a6ci9qcxpqhxfcn0rnkgr8vivq3f50-source"
+      }
     },
     "swift-llvm-bindings": {
       "hash": "sha256-FNTHNc7tFoyHOZP273J2VNeDHwA4h47CeRxFbcl18cU=",
@@ -3029,8 +2862,7 @@
         "ref": "swift/release/5.8",
         "repo": "swift-llvm-bindings",
         "type": "github"
-      },
-      "storePath": "/nix/store/7nhradc3lc5wwjy5ma4nns1i7k29w97d-source"
+      }
     },
     "swift": {
       "hash": "sha256-iCIxYLhBh7aryOhhuhuHK9Zl2L2TVy/7qKm7lkJByjo=",
@@ -3047,8 +2879,7 @@
         "ref": "release/5.8",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/pc021s9x0b6vvalxblb8l8vzsrw3363n-source"
+      }
     },
     "cmark": {
       "hash": "sha256-6xkO9kN6eXMAigjk+KyIgVhTyC50BxmkZmD4+9z6nz8=",
@@ -3065,8 +2896,7 @@
         "ref": "release/5.8",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/91ragdr5gkkxpjn7l6lwbv0m8wyhhkmi-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-KqIX4r+dJ9nDxcrBWsWGSOpKnXwqiqkB8wVazSwrSDg=",
@@ -3083,8 +2913,7 @@
         "ref": "release/5.8",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/3wadx9gd5qfygcnfcq454ar665x8mk38-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-PzKk4SC7ZqNxQFjUDY4fS63qC2xi+tc9x6jsr6Kna+M=",
@@ -3101,8 +2930,7 @@
         "ref": "release/5.8",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/4lah9hvrrvbpyacxbc81j975j1xirhzx-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-ia+47gOlK+RA7pOiT7D0zmDX2/2dwDeqLYi8SyxMtiw=",
@@ -3119,8 +2947,7 @@
         "ref": "release/5.8",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/md78kbhdjck4y2s09k2y9scs3q4jnlfl-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-vNqkuAwSZNCWvwe6E5BqbXQdIbmIia0dENmmSQ9P8Mo=",
@@ -3137,8 +2964,7 @@
         "ref": "1.0.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/znyk4zn129f2qpqdva730zrn822w8frr-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-6fMm8q57/KUS+1xRKzCWO+a45tAxK6SKrhXwOuxhZas=",
@@ -3155,8 +2981,7 @@
         "ref": "1.0.2",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/909lgw5v94adyqdly4gbg55maa7fs72n-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-vd3yaYKG0xIeH1sCSlNuQUB38NNFzr6C1lme+MUg70w=",
@@ -3173,8 +2998,7 @@
         "ref": "1.0.1",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/5c72hbdxnq53abn7zagdskkqmms7psrj-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-8hgiHavwePKPn8X3EanPAc47YQORWLu4NQ35b7/RzNQ=",
@@ -3191,8 +3015,7 @@
         "ref": "2.2.3",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/02a36l346fdnahl9mfc0cnniybvfgp1q-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-WW+RYRnNetgv6h+bdr4pJ8bNVZ1UyKEPBIj3IsVBPQU=",
@@ -3209,8 +3032,7 @@
         "ref": "release/5.8",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/35063lv2lx3y8y09h6rwcsdg9qcnlx1i-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-wGIJ4hMxIBHy8mqmUGFWPR56wPFlI5qS4N7+nsFqLbs=",
@@ -3227,8 +3049,7 @@
         "ref": "1.0.1",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/n55gvmja3ffg7nz8nf1yc104lzn64idf-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-TsRuD8N3e5zC+KE13s6YPeHeeZgBhk1vlIfUbWmDXms=",
@@ -3245,8 +3066,7 @@
         "ref": "release/5.8",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/gxz39fih5qimgzc67h1imi798sl0dvc4-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-p18QHzO+NtoY/WQzOD+PfD+bjqrIWsbeEbsJLPqEAhA=",
@@ -3263,8 +3083,7 @@
         "ref": "1.1.1",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/87k90qv20mhngbkbzf39xfiawn6awz0j-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-dxtZcwN0WH0E0ZxGJsfyQz9cDDdsDBzbsUoGHIfCjdw=",
@@ -3281,8 +3100,7 @@
         "ref": "release/5.8",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/h56k67arhm12bbq776pq202hrik00xzz-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-uwxQhKUQ1xp5ao6kfkdlYOvMr6yAb5IaBIdOfoyf+n8=",
@@ -3299,8 +3117,7 @@
         "ref": "release/5.8",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/cadxvr0yc3wxixkhzp46wx5042crzrj2-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-yRjjxJRy1eTM9VG7/Fn60UMghPavsaoueH0V8cjaIyM=",
@@ -3317,8 +3134,7 @@
         "ref": "release/5.8",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/yjzm8m9ybxxif40d2n39n8if8r2hl3pv-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-XOAWuaGqWJtxhGIPXYT3PIvk5OK0rkY4g1IOybJUlm4=",
@@ -3335,8 +3151,7 @@
         "ref": "release/5.8",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/bcndabb3l565g8p1q6h0p9bn3v8zgz91-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-gt0YexGktUPxTbOseRz+Z2hfy5vHrWCzN6Qr2/PyFqw=",
@@ -3353,8 +3168,7 @@
         "ref": "release/5.8",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/0qlbqmr75d5a0is45h2iin0xrs60ijdd-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-esv5h1SLs/oy7hr4CwhnHufwlBxu2Q+gfbTYU/LlkyE=",
@@ -3371,8 +3185,7 @@
         "ref": "release/5.8",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/dbg2ka0jib6lm08mjnkns3kkhq3zn2mk-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -3389,8 +3202,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -3407,8 +3219,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-5qxuCkmopm3uFcoYJKQA8ofW98f53H1gZaPiOh2DS4U=",
@@ -3425,8 +3236,7 @@
         "ref": "5.0.1",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/mvph4s898clk8b7lw99i1k404qc5sibr-source"
+      }
     },
     "cmake": {
       "hash": "sha256-jaPm1KcK/80ahoIyDP5txEQ3Fihqmwr5DnCz8frzWyk=",
@@ -3443,8 +3253,7 @@
         "ref": "v3.19.6",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/q33ag1h91apl3jlp0y8ff7q2gn92gc0s-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-NCKPY5Cu+QNuF3aTrBfhzwUQY6qWLX7MpsYhLVA1yVE=",
@@ -3461,8 +3270,7 @@
         "ref": "release/5.8",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/394yfs3787mvsmg4s2ar5shdsf9dxhaz-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-XDGq64LbpgBrRy3IvZNgsoLUePXECK5p10vQ8cUKeGE=",
@@ -3479,8 +3287,7 @@
         "ref": "release/5.8",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/0jfj9wgq6sk7vxfzqk7dfyyr2bbjn41k-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-oJ7f1MSPqmD4ZpAe1d2lxXjicNrUxK7vpeU/Ao7Zz7E=",
@@ -3497,8 +3304,7 @@
         "ref": "release/5.8",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/1wj3w0hh8id5akbfdyzxkqccs0v1q5h3-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-Xbn7YytazfNQcf3PA6Rs0w7uQRg8ZYZF5NI9hgV910M=",
@@ -3515,8 +3321,7 @@
         "ref": "release/5.8",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/451s2bizjzg5p7j967sd7zgl5m57cv50-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-k1ygYDZwF4Jo7iOkHxc/3NzfgN+8XNCks5aizxBgPjM=",
@@ -3533,8 +3338,7 @@
         "ref": "release/5.8",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/n40z9m7lkyjw0w21vxbf7w58iqyv9805-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-dZDN2pBOE0ZPtneQvEjF+AE4PDwbcaTausR2W4lg9Ss=",
@@ -3551,8 +3355,7 @@
         "ref": "release/5.8",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/7hmsjf2y3qj9h0s1px15q5c4q9jc393m-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-vdSyICXOjlNSjZXzPRxa/5305pg6PG4xww9GYEV9m10=",
@@ -3569,8 +3372,7 @@
         "ref": "release/5.8",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/87yq7mkk9malmq33hjqrycghd3m86zf7-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-+uQQiqVAon1UefkIM2FXwQIR5PVgR1K5e76Gvj4/g5M=",
@@ -3587,8 +3389,7 @@
         "ref": "release/5.8",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/z2508ip0im9riw37486zllwhn16w6yk5-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-xpSNk2FWfh7LowqJwwC8772kNukuGiUfU22wnTR4CBA=",
@@ -3605,8 +3406,7 @@
         "ref": "release/5.8",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/h6nibf7is6bab1gizs991fambwxp2jnj-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -3623,8 +3423,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -3641,8 +3440,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     },
     "swift-experimental-string-processing": {
       "hash": "sha256-ioXG6pQKjlAc2oF38Z7TGighyZN8w2ZAAtFUq83Ow6Q=",
@@ -3659,8 +3457,7 @@
         "ref": "swift/release/5.8",
         "repo": "swift-experimental-string-processing",
         "type": "github"
-      },
-      "storePath": "/nix/store/rrbmqcv25qrsvgb9n1bmhq04ddrhyg70-source"
+      }
     }
   },
   "5.7": {
@@ -3679,8 +3476,7 @@
         "ref": "swift/release/5.7",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/ms6ar7q77aplp03rb2q73gmry3mgpis5-source"
+      }
     },
     "swift": {
       "hash": "sha256-/Z2BG7qByZbldzOf15D7puxexYwEAj9Y3PYrwq2YbIw=",
@@ -3697,8 +3493,7 @@
         "ref": "release/5.7",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/x7lpk15whwb7ss9difjpr99wjgqsd2x4-source"
+      }
     },
     "cmark": {
       "hash": "sha256-f0BoTs4HYdx/aJ9HIGCWMalhl8PvClWD6R4QK3qSgAw=",
@@ -3715,8 +3510,7 @@
         "ref": "release/5.7",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/qchvzz5xzwavqql6967arfmv4gsm5y83-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-EAVlzstwUFxB2MXTHYVwEhCbV8rX6vO8XaFh55u46x8=",
@@ -3733,8 +3527,7 @@
         "ref": "release/5.7",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/163h2lky38zdlqhz2rakbl9ny7ax56xb-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-P8Ocqtn+fl6El1/qikne2C/exBkamsgZ8u1bSUhPjow=",
@@ -3751,8 +3544,7 @@
         "ref": "release/5.7",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/cpv5ldp6cdq0ld4ww50y103bp0lbg6yh-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-zlFYh1wdjUwOsnbagKnAtqXl3vKPcRtnA7YMORtUeyg=",
@@ -3769,8 +3561,7 @@
         "ref": "release/5.7",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/kz89w6b5jnajswi3kdw00xb4928drhb8-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-vNqkuAwSZNCWvwe6E5BqbXQdIbmIia0dENmmSQ9P8Mo=",
@@ -3787,8 +3578,7 @@
         "ref": "1.0.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/znyk4zn129f2qpqdva730zrn822w8frr-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-6fMm8q57/KUS+1xRKzCWO+a45tAxK6SKrhXwOuxhZas=",
@@ -3805,8 +3595,7 @@
         "ref": "1.0.2",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/909lgw5v94adyqdly4gbg55maa7fs72n-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-vd3yaYKG0xIeH1sCSlNuQUB38NNFzr6C1lme+MUg70w=",
@@ -3823,8 +3612,7 @@
         "ref": "1.0.1",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/5c72hbdxnq53abn7zagdskkqmms7psrj-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-jwxXQuOF+CnpLMwTZ2z52Fgx2b97yWzXiPTx0Ye8KCQ=",
@@ -3841,8 +3629,7 @@
         "ref": "1.1.5",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/cvcpsw5z99r0in9fi8nrf6lfkxxyd13c-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-BUwsvw8pirvprUFfliLQMMHr6SHTSgeaJYc9lTEvi9E=",
@@ -3859,8 +3646,7 @@
         "ref": "release/5.7",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/6f3qg353vxwn8asvm22m8yj6jxg58gsh-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-wGIJ4hMxIBHy8mqmUGFWPR56wPFlI5qS4N7+nsFqLbs=",
@@ -3877,8 +3663,7 @@
         "ref": "1.0.1",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/n55gvmja3ffg7nz8nf1yc104lzn64idf-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-oqs6PUGr1Ul+YW8eBJLhRT4IJvISHJBf1n/Uop7oadU=",
@@ -3895,8 +3680,7 @@
         "ref": "release/5.7",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/82y3fcdjqxi0vvbkpvf5ysb6ac1gjcyc-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-p18QHzO+NtoY/WQzOD+PfD+bjqrIWsbeEbsJLPqEAhA=",
@@ -3913,8 +3697,7 @@
         "ref": "1.1.1",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/87k90qv20mhngbkbzf39xfiawn6awz0j-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-dyNqFp+2BjQKIq1UeVRElo3kmsoz3o7KrtvC8dN+8qk=",
@@ -3931,8 +3714,7 @@
         "ref": "release/5.7",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/8ac37a3rjk46nfpalfnx0f2iwfvy0xr7-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-qLUO9/3tkJWorDMEHgHd8VC3ovLLq/UWXJWMtb6CMN0=",
@@ -3949,8 +3731,7 @@
         "ref": "release/5.7",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/np6yn9n4dv8kk3cbh1mx7pcb85y76srn-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-g78zKSq/b/pVFAD2k2SoMpzJQIpkxMvZOaSz5JPaQmA=",
@@ -3967,8 +3748,7 @@
         "ref": "release/5.7",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/p9y40sqjx7j43kcz1b5jcqxs287srd59-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-1qbXiC1k9+T+L6liqXKg6EZXqem6KEEx8OctuL4Kb2o=",
@@ -3985,8 +3765,7 @@
         "ref": "release/5.7",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/af9awxs58sir7bcannc9ds959wa528y1-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-vN77NpTj/dEHllQlIxJ3Nx103mifAWsDrVjHVcA8M+A=",
@@ -4003,8 +3782,7 @@
         "ref": "release/5.7",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/y8hddg15fbr8kd9vg1y7zycxgrm8c6xj-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-jhBeaYZCN4F1QetqskgA0P8sKdhgKK4EnsjzaeRiAec=",
@@ -4021,8 +3799,7 @@
         "ref": "release/5.7",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/xrhg0yviq9c6qmj2mm5cwhi5cpbbd8sr-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -4039,8 +3816,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -4057,8 +3833,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-mYhNcti6eSsRNj9alLGEnptP5aprpyXaBazFUFCkR2A=",
@@ -4075,8 +3850,7 @@
         "ref": "5.0.0",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/wk8kq5j0zy8wq1hlmvkzwyhzc624fmn8-source"
+      }
     },
     "cmake": {
       "hash": "sha256-jaPm1KcK/80ahoIyDP5txEQ3Fihqmwr5DnCz8frzWyk=",
@@ -4093,8 +3867,7 @@
         "ref": "v3.19.6",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/q33ag1h91apl3jlp0y8ff7q2gn92gc0s-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-XZpaLvui4vK6tCTk9IdRQPQBqnx3+KnoRXxt9tygpxU=",
@@ -4111,8 +3884,7 @@
         "ref": "release/5.7",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/k2z7ar6f36fgvik7zs2y90x2f29bj5g5-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-BT6+VCBSupKOg2mXo6HlkvNRc8pVZU772Mj3LKFamsU=",
@@ -4129,8 +3901,7 @@
         "ref": "release/5.7",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/95yb2m197rp670fpswkr6z12l8hdhscf-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-AFaViBqfqvk2D2abg4a240hmBTN1zCiWR/DUy+XBp6w=",
@@ -4147,8 +3918,7 @@
         "ref": "release/5.7",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/y6b77z9bikvi4s924d51b844bgb9jz85-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-nJqr5YN6+KbwTeoNNI2/JKfpYixO1TJOCknt3ia1qjc=",
@@ -4165,8 +3935,7 @@
         "ref": "release/5.7",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/rna5310zp501mxfvwi5irppsxbi0k1va-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-WlXJMAnrlVPCM+iCIhG0Gyho76BsC2yVBEpX3m/WiIQ=",
@@ -4183,8 +3952,7 @@
         "ref": "release/5.7",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/vq7jmrxhhnbm6l3wsdwh62d5hd3mbkqs-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-i2GkWRWq1W5j8rF4PiHwWgT4Dur5FCY2o44HvUU3vtQ=",
@@ -4201,8 +3969,7 @@
         "ref": "release/5.7",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/b86wfz75g55d8da5d6c7lr5y37q3mf28-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-ttdurN/K7OX+I4577jG3YGeRs+GLUTc7BiiEZGmFD+s=",
@@ -4219,8 +3986,7 @@
         "ref": "release/5.7",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/xkkcw2wwx104p8mi0d61mc88khxrvkri-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-0asYNJlQdNHUZwpbShxDpYKPxD/BWy+ycDrCBBgXC5I=",
@@ -4237,8 +4003,7 @@
         "ref": "release/5.7",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/n2sqy2z7q1pmz5kn4bm14dfy3qxf6z55-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-JzU7lTpbiUdPdAzuxyfaRdyQ4dIwCVUZAelSnt0CRyQ=",
@@ -4255,8 +4020,7 @@
         "ref": "release/5.7",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/rvdrzml7wm9i2j3ym16w4861p39yq499-source"
+      }
     },
     "swift-cmark-gfm": {
       "hash": "sha256-axmlIzHhVH9guZWe6atU8Trkk9ET2WjCBwcMTV+DzHU=",
@@ -4273,8 +4037,7 @@
         "ref": "release/5.7-gfm",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/j1zz2q3ydn3qf9x78q39hn02lwzid4hw-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -4291,8 +4054,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -4309,8 +4071,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     },
     "swift-experimental-string-processing": {
       "hash": "sha256-W0cQBkdR3A0hrV75Wwm0YULUDVg1bjT0O5w5VGBYDJs=",
@@ -4327,8 +4088,7 @@
         "ref": "swift/release/5.7",
         "repo": "swift-experimental-string-processing",
         "type": "github"
-      },
-      "storePath": "/nix/store/0kxdm6r3jhf88d12bzj9b45pc6zqnlx4-source"
+      }
     }
   },
   "5.7-04182022": {
@@ -4347,8 +4107,7 @@
         "ref": "swift/release/5.7-04182022",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/pljx31iz956sqkcaj3w30a2d8kszfh32-source"
+      }
     },
     "swift": {
       "hash": "sha256-OlcEedm/j9HbmG+Ih1hgiHDmwDOuWkd7Nhi4KpAiCus=",
@@ -4365,8 +4124,7 @@
         "ref": "release/5.7-04182022",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/adnqh39433w73wzi67yvqi3b49sanp2q-source"
+      }
     },
     "cmark": {
       "hash": "sha256-f0BoTs4HYdx/aJ9HIGCWMalhl8PvClWD6R4QK3qSgAw=",
@@ -4383,8 +4141,7 @@
         "ref": "release/5.7",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/qchvzz5xzwavqql6967arfmv4gsm5y83-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-EAVlzstwUFxB2MXTHYVwEhCbV8rX6vO8XaFh55u46x8=",
@@ -4401,8 +4158,7 @@
         "ref": "release/5.7",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/163h2lky38zdlqhz2rakbl9ny7ax56xb-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-P8Ocqtn+fl6El1/qikne2C/exBkamsgZ8u1bSUhPjow=",
@@ -4419,8 +4175,7 @@
         "ref": "release/5.7",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/cpv5ldp6cdq0ld4ww50y103bp0lbg6yh-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-zlFYh1wdjUwOsnbagKnAtqXl3vKPcRtnA7YMORtUeyg=",
@@ -4437,8 +4192,7 @@
         "ref": "release/5.7",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/kz89w6b5jnajswi3kdw00xb4928drhb8-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-vNqkuAwSZNCWvwe6E5BqbXQdIbmIia0dENmmSQ9P8Mo=",
@@ -4455,8 +4209,7 @@
         "ref": "1.0.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/znyk4zn129f2qpqdva730zrn822w8frr-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-6fMm8q57/KUS+1xRKzCWO+a45tAxK6SKrhXwOuxhZas=",
@@ -4473,8 +4226,7 @@
         "ref": "1.0.2",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/909lgw5v94adyqdly4gbg55maa7fs72n-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-vd3yaYKG0xIeH1sCSlNuQUB38NNFzr6C1lme+MUg70w=",
@@ -4491,8 +4243,7 @@
         "ref": "1.0.1",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/5c72hbdxnq53abn7zagdskkqmms7psrj-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-jwxXQuOF+CnpLMwTZ2z52Fgx2b97yWzXiPTx0Ye8KCQ=",
@@ -4509,8 +4260,7 @@
         "ref": "1.1.5",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/cvcpsw5z99r0in9fi8nrf6lfkxxyd13c-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-wrfxOakvcH1HVrJPCh6T1qjRZlu3BhLFFzVzfcGR4mA=",
@@ -4527,8 +4277,7 @@
         "ref": "release/5.7-04182022",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/wqr4h9yjrg63y9y059yzhjd393n7s9z4-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-wGIJ4hMxIBHy8mqmUGFWPR56wPFlI5qS4N7+nsFqLbs=",
@@ -4545,8 +4294,7 @@
         "ref": "1.0.1",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/n55gvmja3ffg7nz8nf1yc104lzn64idf-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-oqs6PUGr1Ul+YW8eBJLhRT4IJvISHJBf1n/Uop7oadU=",
@@ -4563,8 +4311,7 @@
         "ref": "release/5.7",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/82y3fcdjqxi0vvbkpvf5ysb6ac1gjcyc-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-p18QHzO+NtoY/WQzOD+PfD+bjqrIWsbeEbsJLPqEAhA=",
@@ -4581,8 +4328,7 @@
         "ref": "1.1.1",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/87k90qv20mhngbkbzf39xfiawn6awz0j-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-dyNqFp+2BjQKIq1UeVRElo3kmsoz3o7KrtvC8dN+8qk=",
@@ -4599,8 +4345,7 @@
         "ref": "release/5.7",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/8ac37a3rjk46nfpalfnx0f2iwfvy0xr7-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-qLUO9/3tkJWorDMEHgHd8VC3ovLLq/UWXJWMtb6CMN0=",
@@ -4617,8 +4362,7 @@
         "ref": "release/5.7",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/np6yn9n4dv8kk3cbh1mx7pcb85y76srn-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-g78zKSq/b/pVFAD2k2SoMpzJQIpkxMvZOaSz5JPaQmA=",
@@ -4635,8 +4379,7 @@
         "ref": "release/5.7",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/p9y40sqjx7j43kcz1b5jcqxs287srd59-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-1qbXiC1k9+T+L6liqXKg6EZXqem6KEEx8OctuL4Kb2o=",
@@ -4653,8 +4396,7 @@
         "ref": "release/5.7",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/af9awxs58sir7bcannc9ds959wa528y1-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-vN77NpTj/dEHllQlIxJ3Nx103mifAWsDrVjHVcA8M+A=",
@@ -4671,8 +4413,7 @@
         "ref": "release/5.7",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/y8hddg15fbr8kd9vg1y7zycxgrm8c6xj-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-jhBeaYZCN4F1QetqskgA0P8sKdhgKK4EnsjzaeRiAec=",
@@ -4689,8 +4430,7 @@
         "ref": "release/5.7",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/xrhg0yviq9c6qmj2mm5cwhi5cpbbd8sr-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -4707,8 +4447,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -4725,8 +4464,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-mYhNcti6eSsRNj9alLGEnptP5aprpyXaBazFUFCkR2A=",
@@ -4743,8 +4481,7 @@
         "ref": "5.0.0",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/wk8kq5j0zy8wq1hlmvkzwyhzc624fmn8-source"
+      }
     },
     "cmake": {
       "hash": "sha256-jaPm1KcK/80ahoIyDP5txEQ3Fihqmwr5DnCz8frzWyk=",
@@ -4761,8 +4498,7 @@
         "ref": "v3.19.6",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/q33ag1h91apl3jlp0y8ff7q2gn92gc0s-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-XZpaLvui4vK6tCTk9IdRQPQBqnx3+KnoRXxt9tygpxU=",
@@ -4779,8 +4515,7 @@
         "ref": "release/5.7",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/k2z7ar6f36fgvik7zs2y90x2f29bj5g5-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-BT6+VCBSupKOg2mXo6HlkvNRc8pVZU772Mj3LKFamsU=",
@@ -4797,8 +4532,7 @@
         "ref": "release/5.7",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/95yb2m197rp670fpswkr6z12l8hdhscf-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-AFaViBqfqvk2D2abg4a240hmBTN1zCiWR/DUy+XBp6w=",
@@ -4815,8 +4549,7 @@
         "ref": "release/5.7",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/y6b77z9bikvi4s924d51b844bgb9jz85-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-nJqr5YN6+KbwTeoNNI2/JKfpYixO1TJOCknt3ia1qjc=",
@@ -4833,8 +4566,7 @@
         "ref": "release/5.7",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/rna5310zp501mxfvwi5irppsxbi0k1va-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-WlXJMAnrlVPCM+iCIhG0Gyho76BsC2yVBEpX3m/WiIQ=",
@@ -4851,8 +4583,7 @@
         "ref": "release/5.7",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/vq7jmrxhhnbm6l3wsdwh62d5hd3mbkqs-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-i2GkWRWq1W5j8rF4PiHwWgT4Dur5FCY2o44HvUU3vtQ=",
@@ -4869,8 +4600,7 @@
         "ref": "release/5.7",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/b86wfz75g55d8da5d6c7lr5y37q3mf28-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-ttdurN/K7OX+I4577jG3YGeRs+GLUTc7BiiEZGmFD+s=",
@@ -4887,8 +4617,7 @@
         "ref": "release/5.7",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/xkkcw2wwx104p8mi0d61mc88khxrvkri-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-0asYNJlQdNHUZwpbShxDpYKPxD/BWy+ycDrCBBgXC5I=",
@@ -4905,8 +4634,7 @@
         "ref": "release/5.7",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/n2sqy2z7q1pmz5kn4bm14dfy3qxf6z55-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-JzU7lTpbiUdPdAzuxyfaRdyQ4dIwCVUZAelSnt0CRyQ=",
@@ -4923,8 +4651,7 @@
         "ref": "release/5.7",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/rvdrzml7wm9i2j3ym16w4861p39yq499-source"
+      }
     },
     "swift-cmark-gfm": {
       "hash": "sha256-axmlIzHhVH9guZWe6atU8Trkk9ET2WjCBwcMTV+DzHU=",
@@ -4941,8 +4668,7 @@
         "ref": "release/5.7-gfm",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/j1zz2q3ydn3qf9x78q39hn02lwzid4hw-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -4959,8 +4685,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -4977,8 +4702,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     },
     "swift-experimental-string-processing": {
       "hash": "sha256-koc/FiXW2Uht/eNoCGPViftwdMK7WuLDGrQW5tmW8mk=",
@@ -4995,8 +4719,7 @@
         "ref": "swift/release/5.7-04182022",
         "repo": "swift-experimental-string-processing",
         "type": "github"
-      },
-      "storePath": "/nix/store/svrhpxhi6bswpzi35nxvwzh6dw41r3jf-source"
+      }
     }
   },
   "5.6": {
@@ -5015,8 +4738,7 @@
         "ref": "swift/release/5.6",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/2h27g32gr32adn16w8kgsk9lfv9hy391-source"
+      }
     },
     "swift": {
       "hash": "sha256-pgnWlDlB/P6ILj6cOt7xQQxrIE6UFbvH2IN1MMFnk/0=",
@@ -5033,8 +4755,7 @@
         "ref": "release/5.6",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/f5jzg35yd3y9jmrmzl2miq75cxzzyg5j-source"
+      }
     },
     "cmark": {
       "hash": "sha256-f0BoTs4HYdx/aJ9HIGCWMalhl8PvClWD6R4QK3qSgAw=",
@@ -5051,8 +4772,7 @@
         "ref": "release/5.6",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/qchvzz5xzwavqql6967arfmv4gsm5y83-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-SQ6V0zVshIYMjayx+ZpYuLijgQ89tqRnPlXBPf2FYqM=",
@@ -5069,8 +4789,7 @@
         "ref": "release/5.6",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/kfq6rknmfkrbv8m3kqhfhpaayazqx68z-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-FbtQCq1sSlzrskCrgzD4iYuo5eGaXrAUUxoNX/BiOfg=",
@@ -5087,8 +4806,7 @@
         "ref": "release/5.6",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/wybrsa072qnhvi5yvlbizidwr0cl4d52-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-0+ZnKPiT2pQGuI9an/gnFZBtbNh5Rm1XO5QmiqCP+Oo=",
@@ -5105,8 +4823,7 @@
         "ref": "release/5.6",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/r6j6h3jazwlkhs0g08ryiy7s3b8c2n0y-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-vNqkuAwSZNCWvwe6E5BqbXQdIbmIia0dENmmSQ9P8Mo=",
@@ -5123,8 +4840,7 @@
         "ref": "1.0.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/znyk4zn129f2qpqdva730zrn822w8frr-source"
+      }
     },
     "swift-atomics": {
       "hash": "sha256-6fMm8q57/KUS+1xRKzCWO+a45tAxK6SKrhXwOuxhZas=",
@@ -5141,8 +4857,7 @@
         "ref": "1.0.2",
         "repo": "swift-atomics",
         "type": "github"
-      },
-      "storePath": "/nix/store/909lgw5v94adyqdly4gbg55maa7fs72n-source"
+      }
     },
     "swift-collections": {
       "hash": "sha256-vd3yaYKG0xIeH1sCSlNuQUB38NNFzr6C1lme+MUg70w=",
@@ -5159,8 +4874,7 @@
         "ref": "1.0.1",
         "repo": "swift-collections",
         "type": "github"
-      },
-      "storePath": "/nix/store/5c72hbdxnq53abn7zagdskkqmms7psrj-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-jwxXQuOF+CnpLMwTZ2z52Fgx2b97yWzXiPTx0Ye8KCQ=",
@@ -5177,8 +4891,7 @@
         "ref": "1.1.5",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/cvcpsw5z99r0in9fi8nrf6lfkxxyd13c-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-D5/C4Rbv5KIsKpy6YbuMxGIGaQkn80PD4Cp0l6bPKzY=",
@@ -5195,8 +4908,7 @@
         "ref": "release/5.6",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/0ygw2b6123ndx2jna3q9xj2jwj0pd3v5-source"
+      }
     },
     "swift-numerics": {
       "hash": "sha256-wGIJ4hMxIBHy8mqmUGFWPR56wPFlI5qS4N7+nsFqLbs=",
@@ -5213,8 +4925,7 @@
         "ref": "1.0.1",
         "repo": "swift-numerics",
         "type": "github"
-      },
-      "storePath": "/nix/store/n55gvmja3ffg7nz8nf1yc104lzn64idf-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-C9FPCtq49BvKXtTWWeReYWNrU70pHzT2DhAv3NiTbPU=",
@@ -5231,8 +4942,7 @@
         "ref": "release/5.6",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/nbfbc0p0rizwslx46mx7slxkgyqxcn1v-source"
+      }
     },
     "swift-system": {
       "hash": "sha256-p18QHzO+NtoY/WQzOD+PfD+bjqrIWsbeEbsJLPqEAhA=",
@@ -5249,8 +4959,7 @@
         "ref": "1.1.1",
         "repo": "swift-system",
         "type": "github"
-      },
-      "storePath": "/nix/store/87k90qv20mhngbkbzf39xfiawn6awz0j-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-xM2zQFKs9xo96ZB7JwIEWlJI9AfFrk2QZwD1AYDONNA=",
@@ -5267,8 +4976,7 @@
         "ref": "release/5.6",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/izfa2w1fbm9k5jrxpl70v16dhbfv46g8-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-0hizfnKJaUUA+jXuXzXWk72FmlSyc+UGEf7BTLdJrx4=",
@@ -5285,8 +4993,7 @@
         "ref": "release/5.6",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/fm86z9q0vl0xdmbh8i5jjdn3s8y05a7z-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-Y9w6ZJ5QDQ8Mc4KUwlYLXOmWMpuBRZn26JXLOGze6rU=",
@@ -5303,8 +5010,7 @@
         "ref": "release/5.6",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/dv5bjik1vcffxvhfd2r5c62xblqgcfli-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-1tIskUMnfblnvZaFDQPUMBfWTmBYG98s7rEww7PwZO8=",
@@ -5321,8 +5027,7 @@
         "ref": "release/5.6",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/sk0i54m1j8jjbmshcyjc3hrfz08408pc-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-BrVzHMaO/Q5XVI4G1eKSmzK96b8FY8lUTj2AMT+1cLQ=",
@@ -5339,8 +5044,7 @@
         "ref": "release/5.6",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/l3bd41r250yjmcqqr2cs29256144324j-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-jhBeaYZCN4F1QetqskgA0P8sKdhgKK4EnsjzaeRiAec=",
@@ -5357,8 +5061,7 @@
         "ref": "release/5.6",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/xrhg0yviq9c6qmj2mm5cwhi5cpbbd8sr-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -5375,8 +5078,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -5393,8 +5095,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-cTkCAwxxLc35laOon1ZXXV8eAxX02oDolJyPauhZado=",
@@ -5411,8 +5112,7 @@
         "ref": "4.0.2",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/gwirq51bn8rpvff6s0h7l38npfy0g097-source"
+      }
     },
     "cmake": {
       "hash": "sha256-jaPm1KcK/80ahoIyDP5txEQ3Fihqmwr5DnCz8frzWyk=",
@@ -5429,8 +5129,7 @@
         "ref": "v3.19.6",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/q33ag1h91apl3jlp0y8ff7q2gn92gc0s-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-/PO4eMiASZN3pjFjBQ1r8vYwGRn6xm3SWaB2HDZlkPs=",
@@ -5447,8 +5146,7 @@
         "ref": "release/5.6",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/m225k35pgvf01ywaniwpdp9rym7jlh84-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-ttgUC4ZHD3P/xLHllEbACtHVrJ6HXqeVWccXcoPMkts=",
@@ -5465,8 +5163,7 @@
         "ref": "release/5.6",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/9d2hl3g0wlyim9qh0crcy0c5dwcpaaxs-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-1f5sIrv9IbPB7Vnahq1VwH8gT41dcjWldRwvVEaMdto=",
@@ -5483,8 +5180,7 @@
         "ref": "release/5.6",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/7n0fgz7shkkq0d0v22bsg13cz53cy6ik-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-04B2hRoICGiSilrgiSW+eIBYboLAbuy/or5SuUqrbSI=",
@@ -5501,8 +5197,7 @@
         "ref": "release/5.6",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/8h340zdiw4qd3r8bc18bymir82ydhd1d-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-rWiaNamZoHTO1bKpubxuT7m1IBOl7amT5M71mNauilY=",
@@ -5519,8 +5214,7 @@
         "ref": "release/5.6",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/12jaj7wl63q4kr431r6pvy8fiszqkwzi-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-i2GkWRWq1W5j8rF4PiHwWgT4Dur5FCY2o44HvUU3vtQ=",
@@ -5537,8 +5231,7 @@
         "ref": "release/5.6",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/b86wfz75g55d8da5d6c7lr5y37q3mf28-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-AX+rtDLhq8drk7N6/hoH3fQioudmmTCnEhR45bME8uU=",
@@ -5555,8 +5248,7 @@
         "ref": "release/5.6",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/y06jly4j3mirgzjxibsqfsilxa6fyprh-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-Xy1TQ5ucDW+MnkeOvVznsATBmwcQ3p1x+ofQ22ofk+o=",
@@ -5573,8 +5265,7 @@
         "ref": "release/5.6",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/028j7b8sqm5smb5pzbirs4gi4mxf9alr-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-XtFSBiNHhmULjS4OqSpMgUetLu3peRg7l6HpjwVsTj8=",
@@ -5591,8 +5282,7 @@
         "ref": "release/5.6",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/dnir2zsdzl8scrbrn926m7wlhw0g0738-source"
+      }
     },
     "swift-cmark-gfm": {
       "hash": "sha256-g28iKmMR2W0r1urf8Fk1HBxAp5OlonNYSVN3Ril66tQ=",
@@ -5609,8 +5299,7 @@
         "ref": "release/5.6-gfm",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/3gr4ks4738lr3sa4vxbr15qi1ha34jd8-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -5627,8 +5316,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -5645,8 +5333,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     }
   },
   "5.5": {
@@ -5665,8 +5352,7 @@
         "ref": "swift/release/5.5",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/akww3ynvw0dpw2sds7005hw4xb7r3j0i-source"
+      }
     },
     "swift": {
       "hash": "sha256-VAf3pusDHo2/SVcJl1IF7IIvfwxNLeqELE8rUYqQWzU=",
@@ -5683,8 +5369,7 @@
         "ref": "release/5.5",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/cyzf88grhk8s5cyvwd188q455k1j4jcy-source"
+      }
     },
     "cmark": {
       "hash": "sha256-f0BoTs4HYdx/aJ9HIGCWMalhl8PvClWD6R4QK3qSgAw=",
@@ -5701,8 +5386,7 @@
         "ref": "release/5.5",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/qchvzz5xzwavqql6967arfmv4gsm5y83-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-7AOIvouTxN8hy8LbNMkIP+ZaxG1/MDc60zHldP3ZsfY=",
@@ -5719,8 +5403,7 @@
         "ref": "release/5.5",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/3hwwwybrkjwjnmiqw5kb4zrifsapg55v-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-/7H1Chwun505U4jMIMOheDGOSjZT80192zZcFAhi4eM=",
@@ -5737,8 +5420,7 @@
         "ref": "release/5.5",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/rdxp6y5laj9bh8jkm5m10sc9qh7y67gn-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-IefJ2NNCnvxge9Hr6jEFTmo+MiL2+mtCgfzLM9CrIH0=",
@@ -5755,8 +5437,7 @@
         "ref": "release/5.5",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/411384259ml5f136rr06zis27csa73v8-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-N+Mm301BCR+4+bk3daIUufwI7lfizC6tt/p3eJ04eMo=",
@@ -5773,8 +5454,7 @@
         "ref": "0.4.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/4q29y1vpqpxg6gwwb249vbnh3raqmkhg-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-jwxXQuOF+CnpLMwTZ2z52Fgx2b97yWzXiPTx0Ye8KCQ=",
@@ -5791,8 +5471,7 @@
         "ref": "1.1.5",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/cvcpsw5z99r0in9fi8nrf6lfkxxyd13c-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-Zhn/zpC4bfwZyaKbzirPNLY9wJ6Uxomfyr/j9lp0Z90=",
@@ -5809,8 +5488,7 @@
         "ref": "release/5.5",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/l94db34i7gb9726smgyr2ff1g10xs6f4-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-4Y5o9CfB5PbPa847RgEd6CljpPiLIglFgB4Ji1SCr00=",
@@ -5827,8 +5505,7 @@
         "ref": "release/5.5",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/ravgyrl81nh5f38y6wf5aldx7h99pdmf-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-DSbH/Ox2q6rdxWPX2ngVAYnNLkcF/lFgFoe//CgoJp4=",
@@ -5845,8 +5522,7 @@
         "ref": "release/5.5",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/x5r1qxjg6326q48fznf17qdzzg46gnjk-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-Y4mAj2VIA6kPdaIfYikflhNT22ghwVKYr5lxrH8f14k=",
@@ -5863,8 +5539,7 @@
         "ref": "release/5.5",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/5w1bc8i1scm6jplw3n3ip3b99jikmf1n-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-K7QDe2O/qsx0HgN0kAR2hUxZ5eQfztKlQTRQGCNt8xk=",
@@ -5881,8 +5556,7 @@
         "ref": "release/5.5",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/zmgb8ji5h88c4hwvpvdzkq66c61lcq21-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-7q9IMr36+dRqicY2AvvpgvL8w6eW1PaMfg6v9FMvNa4=",
@@ -5899,8 +5573,7 @@
         "ref": "release/5.5",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/sfq8x5anvyxnf6jghvj4b9sr9xlh9f90-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-B7Q6Fdnwp64WoEP71D+XqEKmQWxCvii6U86uJ2YX7JQ=",
@@ -5917,8 +5590,7 @@
         "ref": "release/5.5",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/r0gz24fs6imnjbadgbrclyfnxy2s67h9-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-jhBeaYZCN4F1QetqskgA0P8sKdhgKK4EnsjzaeRiAec=",
@@ -5935,8 +5607,7 @@
         "ref": "release/5.5",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/xrhg0yviq9c6qmj2mm5cwhi5cpbbd8sr-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -5953,8 +5624,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -5971,8 +5641,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-cTkCAwxxLc35laOon1ZXXV8eAxX02oDolJyPauhZado=",
@@ -5989,8 +5658,7 @@
         "ref": "4.0.2",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/gwirq51bn8rpvff6s0h7l38npfy0g097-source"
+      }
     },
     "cmake": {
       "hash": "sha256-sWES5sNNqB206Xswa0W60tojbDoUEzLONcCsGp6LhLY=",
@@ -6007,8 +5675,7 @@
         "ref": "v3.16.5",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/4cm5li04sryynx5p0vlvbd0mjnxwzimd-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-oj5jn2MBy18nQiY0BBoxTIJNnxn5LOImQP30WdynPdA=",
@@ -6025,8 +5692,7 @@
         "ref": "release/5.5",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/ikl6dbxgh38079v0wza81lzg2vry8hjw-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-dmLn7umsKZCu4UmzKs4V/lvz+a8NMC2VscLs0k+rzAE=",
@@ -6043,8 +5709,7 @@
         "ref": "release/5.5",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/p47iydkw7cbqsq8ifpq5if6hdww3s0i0-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-ZL8PgfO2QgCQBr5ezzdu9pvp+56yGfcFHmK6oS9C6ME=",
@@ -6061,8 +5726,7 @@
         "ref": "swift-5.5-branch",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/59k972hi9f677jiikng1ibdf9x7df99m-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-qYh2nI9XaecCKmkLMKiTfN5F+SZHSh7ReHC+XcT5yDY=",
@@ -6079,8 +5743,7 @@
         "ref": "main",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/cyhaasqcqk8wszx34439wwkrh298z1nc-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-DWvngQZlC0dzbwoDIimXKqooIuBK5BHCPm2DNNz4rcQ=",
@@ -6097,8 +5760,7 @@
         "ref": "main",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/3flxaynx7ybkfhsmiarnlp2v7y6vac5s-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-zcnteU8c+iGaUBxWYT9IDbHrdAE12HDlgy1MwdAk1Pk=",
@@ -6115,8 +5777,7 @@
         "ref": "main",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/2rh6f7b6wrva64ay4h69226yikcr1xc1-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-vHdHWs4JrMIAEZxT5ffrjJuoqVWuiTm9gOlSC6Ur6dc=",
@@ -6133,8 +5794,7 @@
         "ref": "main",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/qh35zkms8hi2q5cpvs7azbh4433np7r0-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-4Tz8uG9ARlqyPSCco2elNxAWcVVzylUrSDiqXHR4W58=",
@@ -6151,8 +5811,7 @@
         "ref": "main",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/287dbjmzf4lnabqfij9wlcb0hw5q71bq-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-rfhvW8uHn4ThXyasfiFgadXEo8zR6DhARKrg11Gup+k=",
@@ -6169,8 +5828,7 @@
         "ref": "main",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/8r1qv95lcl2gaxwjnjmqd5wp9k90x2fk-source"
+      }
     },
     "swift-cmark-gfm": {
       "hash": "sha256-b/igbZbHFXK/SqS84UGWsUoVjChNFBb0t0w4HoPTguE=",
@@ -6187,8 +5845,7 @@
         "ref": "gfm",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/rkkm14nzp6109wgfp8mdvnnj085dj1n6-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -6205,8 +5862,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -6223,8 +5879,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     }
   },
   "5.5-08092021": {
@@ -6243,8 +5898,7 @@
         "ref": "swift/release/5.5-08092021",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/imfr047yj0lviy6hk638d7xg6wj45lc4-source"
+      }
     },
     "swift": {
       "hash": "sha256-dhzFs4iuCmvQ6cgfy4SK70S0TUbNlaJMJgyKu7dPgJs=",
@@ -6261,8 +5915,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/q0v1vznaklqxq7bnr226amv9mm3hih3c-source"
+      }
     },
     "cmark": {
       "hash": "sha256-f0BoTs4HYdx/aJ9HIGCWMalhl8PvClWD6R4QK3qSgAw=",
@@ -6279,8 +5932,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/qchvzz5xzwavqql6967arfmv4gsm5y83-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-uwnjLvYn4esk97vYcEqvH4I4YAC0MLUerrEg/eKXJSw=",
@@ -6297,8 +5949,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/hd422smfqkzm4v6fq9sq4h1cgmc82fx3-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-QDgrxpDloq2ggaoEPiPg43th82JQBWWl+MNQnBtAMm8=",
@@ -6315,8 +5966,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/svd2vyw9lmv1xya2bn50z0wgyks84h31-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-0kRKmf820a9uSTFzWg6Eu5cUgxM2sg4PYV7ahSaDEho=",
@@ -6333,8 +5983,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/556ah516ixgxv4jssfn3qq6289b6yy88-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-N+Mm301BCR+4+bk3daIUufwI7lfizC6tt/p3eJ04eMo=",
@@ -6351,8 +6000,7 @@
         "ref": "0.4.3",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/4q29y1vpqpxg6gwwb249vbnh3raqmkhg-source"
+      }
     },
     "swift-crypto": {
       "hash": "sha256-jwxXQuOF+CnpLMwTZ2z52Fgx2b97yWzXiPTx0Ye8KCQ=",
@@ -6369,8 +6017,7 @@
         "ref": "1.1.5",
         "repo": "swift-crypto",
         "type": "github"
-      },
-      "storePath": "/nix/store/cvcpsw5z99r0in9fi8nrf6lfkxxyd13c-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-fdmeIojvHRHRJlgfVaMBSNrkcvEylRcJ90kz1fiN5bE=",
@@ -6387,8 +6034,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/2q79cj0zwmpphsqm2v9qz7szakmzfwsm-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-iJEJbYGiyW3YmneBnpTnAnCJ3Pqe7XsmXpPvl84qVIk=",
@@ -6405,8 +6051,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/9vpk7ma5nqxhdkvicqa6s057d0gdwgir-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-DSbH/Ox2q6rdxWPX2ngVAYnNLkcF/lFgFoe//CgoJp4=",
@@ -6423,8 +6068,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/x5r1qxjg6326q48fznf17qdzzg46gnjk-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-XjB5ueKyaPBGIYg+CKnI+oy5NvuR4Frkr6ReoMjxas8=",
@@ -6441,8 +6085,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/x9zwp6jmpindn9rjr63kjzsmp16fw886-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-ViFUBxdzA+A18wW1ENjynu4/p2agpMDQZ/onQWKERlo=",
@@ -6459,8 +6102,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/j0ckvl8fnn3yayma59gfb19g42872f3b-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-MbLgmS6qRSRT+2dGqbYTNb5MTM4Wz/grDXFk1kup+jk=",
@@ -6477,8 +6119,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/9q80q8mxq0sclcsfw0qwsc1xi3nw32cx-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-B7Q6Fdnwp64WoEP71D+XqEKmQWxCvii6U86uJ2YX7JQ=",
@@ -6495,8 +6136,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/r0gz24fs6imnjbadgbrclyfnxy2s67h9-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-jhBeaYZCN4F1QetqskgA0P8sKdhgKK4EnsjzaeRiAec=",
@@ -6513,8 +6153,7 @@
         "ref": "release/5.5-08092021",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/xrhg0yviq9c6qmj2mm5cwhi5cpbbd8sr-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -6531,8 +6170,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -6549,8 +6187,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-cTkCAwxxLc35laOon1ZXXV8eAxX02oDolJyPauhZado=",
@@ -6567,8 +6204,7 @@
         "ref": "4.0.2",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/gwirq51bn8rpvff6s0h7l38npfy0g097-source"
+      }
     },
     "cmake": {
       "hash": "sha256-sWES5sNNqB206Xswa0W60tojbDoUEzLONcCsGp6LhLY=",
@@ -6585,8 +6221,7 @@
         "ref": "v3.16.5",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/4cm5li04sryynx5p0vlvbd0mjnxwzimd-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-oj5jn2MBy18nQiY0BBoxTIJNnxn5LOImQP30WdynPdA=",
@@ -6603,8 +6238,7 @@
         "ref": "release/5.5-08092021",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/ikl6dbxgh38079v0wza81lzg2vry8hjw-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-dmLn7umsKZCu4UmzKs4V/lvz+a8NMC2VscLs0k+rzAE=",
@@ -6621,8 +6255,7 @@
         "ref": "release/5.5-08092021",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/p47iydkw7cbqsq8ifpq5if6hdww3s0i0-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-GeYlNRZ3iLMswoU44YEdBvNucQgEnCKmxLf3bH59HnM=",
@@ -6639,8 +6272,7 @@
         "ref": "main",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/833aj4lip1cj19ns1a5334s4gpgzlfzb-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-qYh2nI9XaecCKmkLMKiTfN5F+SZHSh7ReHC+XcT5yDY=",
@@ -6657,8 +6289,7 @@
         "ref": "main",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/cyhaasqcqk8wszx34439wwkrh298z1nc-source"
+      }
     },
     "swift-docc": {
       "hash": "sha256-DWvngQZlC0dzbwoDIimXKqooIuBK5BHCPm2DNNz4rcQ=",
@@ -6675,8 +6306,7 @@
         "ref": "main",
         "repo": "swift-docc",
         "type": "github"
-      },
-      "storePath": "/nix/store/3flxaynx7ybkfhsmiarnlp2v7y6vac5s-source"
+      }
     },
     "swift-lmdb": {
       "hash": "sha256-zcnteU8c+iGaUBxWYT9IDbHrdAE12HDlgy1MwdAk1Pk=",
@@ -6693,8 +6323,7 @@
         "ref": "main",
         "repo": "swift-lmdb",
         "type": "github"
-      },
-      "storePath": "/nix/store/2rh6f7b6wrva64ay4h69226yikcr1xc1-source"
+      }
     },
     "swift-docc-render-artifact": {
       "hash": "sha256-vHdHWs4JrMIAEZxT5ffrjJuoqVWuiTm9gOlSC6Ur6dc=",
@@ -6711,8 +6340,7 @@
         "ref": "main",
         "repo": "swift-docc-render-artifact",
         "type": "github"
-      },
-      "storePath": "/nix/store/qh35zkms8hi2q5cpvs7azbh4433np7r0-source"
+      }
     },
     "swift-docc-symbolkit": {
       "hash": "sha256-4Tz8uG9ARlqyPSCco2elNxAWcVVzylUrSDiqXHR4W58=",
@@ -6729,8 +6357,7 @@
         "ref": "main",
         "repo": "swift-docc-symbolkit",
         "type": "github"
-      },
-      "storePath": "/nix/store/287dbjmzf4lnabqfij9wlcb0hw5q71bq-source"
+      }
     },
     "swift-markdown": {
       "hash": "sha256-rfhvW8uHn4ThXyasfiFgadXEo8zR6DhARKrg11Gup+k=",
@@ -6747,8 +6374,7 @@
         "ref": "main",
         "repo": "swift-markdown",
         "type": "github"
-      },
-      "storePath": "/nix/store/8r1qv95lcl2gaxwjnjmqd5wp9k90x2fk-source"
+      }
     },
     "swift-cmark-gfm": {
       "hash": "sha256-b/igbZbHFXK/SqS84UGWsUoVjChNFBb0t0w4HoPTguE=",
@@ -6765,8 +6391,7 @@
         "ref": "gfm",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/rkkm14nzp6109wgfp8mdvnnj085dj1n6-source"
+      }
     },
     "swift-nio": {
       "hash": "sha256-FscOA/S7on31QCR/MZFjg4ZB3FGJ+rdptZ6MRZJXexE=",
@@ -6783,8 +6408,7 @@
         "ref": "2.31.2",
         "repo": "swift-nio",
         "type": "github"
-      },
-      "storePath": "/nix/store/0i95hfri4zf4c8wns263lqixs0nzldki-source"
+      }
     },
     "swift-nio-ssl": {
       "hash": "sha256-5QGkmkCOXhG3uOdf0bd3Fo1MFekB8/WcveBXGhtVZKo=",
@@ -6801,8 +6425,7 @@
         "ref": "2.15.0",
         "repo": "swift-nio-ssl",
         "type": "github"
-      },
-      "storePath": "/nix/store/30i293z71vdracb0680yyhc3qkipk2a7-source"
+      }
     }
   },
   "5.4": {
@@ -6821,8 +6444,7 @@
         "ref": "swift/release/5.4",
         "repo": "llvm-project",
         "type": "github"
-      },
-      "storePath": "/nix/store/yrasdan6s6hm66l2mphr4yq0fg39sm2z-source"
+      }
     },
     "swift": {
       "hash": "sha256-EhAtMap7iVqFiFYhtcSD5ALRwGbVEldM3x4GxPEjYtY=",
@@ -6839,8 +6461,7 @@
         "ref": "release/5.4",
         "repo": "swift",
         "type": "github"
-      },
-      "storePath": "/nix/store/4gr77lxbwg7rhi2bsj4i5y2188f7fgry-source"
+      }
     },
     "cmark": {
       "hash": "sha256-f0BoTs4HYdx/aJ9HIGCWMalhl8PvClWD6R4QK3qSgAw=",
@@ -6857,8 +6478,7 @@
         "ref": "release/5.4",
         "repo": "swift-cmark",
         "type": "github"
-      },
-      "storePath": "/nix/store/qchvzz5xzwavqql6967arfmv4gsm5y83-source"
+      }
     },
     "llbuild": {
       "hash": "sha256-8R47eruh1Y+houFqRHRyTeXCImOXJSCEz4GVlVSR+jQ=",
@@ -6875,8 +6495,7 @@
         "ref": "release/5.4",
         "repo": "swift-llbuild",
         "type": "github"
-      },
-      "storePath": "/nix/store/1himr9zs72d462b17vp5cm7adalcpvfl-source"
+      }
     },
     "swift-tools-support-core": {
       "hash": "sha256-+5yrvExdaQrEpIq5ndMeBvq5rs1kNIgY9T8l4DB+Dtc=",
@@ -6893,8 +6512,7 @@
         "ref": "release/5.4",
         "repo": "swift-tools-support-core",
         "type": "github"
-      },
-      "storePath": "/nix/store/3awgh0p9a2s8w00slajbvldshrccw904-source"
+      }
     },
     "swiftpm": {
       "hash": "sha256-/W/ApbKvMzDtUMb04JiYl4jqsod/iDPor6q3SL+1kRY=",
@@ -6911,8 +6529,7 @@
         "ref": "release/5.4",
         "repo": "swift-package-manager",
         "type": "github"
-      },
-      "storePath": "/nix/store/cbm9747igz0fk62hjl14ssrjm64dmmny-source"
+      }
     },
     "swift-argument-parser": {
       "hash": "sha256-zeFgAzIR9GitaQlBZ9Fb4poULJO8nYQFCQQp5yw8e5c=",
@@ -6929,8 +6546,7 @@
         "ref": "0.3.0",
         "repo": "swift-argument-parser",
         "type": "github"
-      },
-      "storePath": "/nix/store/c7izdrxgq8qkfgws2xr16hr159gg106q-source"
+      }
     },
     "swift-driver": {
       "hash": "sha256-35g88FM0tQgSOQCJFjx39A0Q3uFV85kNOmdjBccRCMg=",
@@ -6947,8 +6563,7 @@
         "ref": "release/5.4",
         "repo": "swift-driver",
         "type": "github"
-      },
-      "storePath": "/nix/store/q63vi7cr8wy55alx74nqag8gsqg43h79-source"
+      }
     },
     "swift-syntax": {
       "hash": "sha256-UjXwwvOh0OKfjEQHsV/z2MuJRO1IMD6h7GeAt1J/Kvk=",
@@ -6965,8 +6580,7 @@
         "ref": "release/5.4",
         "repo": "swift-syntax",
         "type": "github"
-      },
-      "storePath": "/nix/store/940j4x2i9zjh3zfms7jymxrhxzb9v81p-source"
+      }
     },
     "swift-stress-tester": {
       "hash": "sha256-yK0QZfNukcFP7ydDee72eDDpnOZqm8i/CpOKj+z0tLw=",
@@ -6983,8 +6597,7 @@
         "ref": "release/5.4",
         "repo": "swift-stress-tester",
         "type": "github"
-      },
-      "storePath": "/nix/store/5nd9v0l43wxxj0dg6w0hcaywsda6z11r-source"
+      }
     },
     "swift-corelibs-xctest": {
       "hash": "sha256-uZCzCfX2RSjKxfGwoakroeqLLvQdAgp19yJkD1BBhgE=",
@@ -7001,8 +6614,7 @@
         "ref": "release/5.4",
         "repo": "swift-corelibs-xctest",
         "type": "github"
-      },
-      "storePath": "/nix/store/dd97fgrpa4vjsv2qmqli7szqc3gdhq6s-source"
+      }
     },
     "swift-corelibs-foundation": {
       "hash": "sha256-w0ybdnjm8Rq6q+aleKGz/kHmACCapiofRLP8zpDVcCg=",
@@ -7019,8 +6631,7 @@
         "ref": "release/5.4",
         "repo": "swift-corelibs-foundation",
         "type": "github"
-      },
-      "storePath": "/nix/store/y98dbq47nh2p1yfw1725x8r9zdcchfzw-source"
+      }
     },
     "swift-corelibs-libdispatch": {
       "hash": "sha256-Vzu1dVkePxpnd/y6pgrQcKwaBb7BFecGyYLEniFghug=",
@@ -7037,8 +6648,7 @@
         "ref": "release/5.4",
         "repo": "swift-corelibs-libdispatch",
         "type": "github"
-      },
-      "storePath": "/nix/store/vzfds1sq3dsypg154mfaxsyp6gcf9xhj-source"
+      }
     },
     "swift-integration-tests": {
       "hash": "sha256-yP4se+XJ69pmIWuwtujXJQjIswLv8sS/5DQflrBwcd4=",
@@ -7055,8 +6665,7 @@
         "ref": "release/5.4",
         "repo": "swift-integration-tests",
         "type": "github"
-      },
-      "storePath": "/nix/store/fnl0mzgqc8aajlkdd5m6b581mbdvk9r5-source"
+      }
     },
     "swift-xcode-playground-support": {
       "hash": "sha256-ja6cglacLsMi0SAkTiHrq7E/+j+PSgUKn9kgLzT6kTo=",
@@ -7073,8 +6682,7 @@
         "ref": "release/5.4",
         "repo": "swift-xcode-playground-support",
         "type": "github"
-      },
-      "storePath": "/nix/store/0xx7i7k44r1wwbm03lk92x7xzxacyrnb-source"
+      }
     },
     "ninja": {
       "hash": "sha256-RT5u+TDvWxG5EVQEYj931EZyrHUSAqK73OKDAascAwA=",
@@ -7091,8 +6699,7 @@
         "ref": "release",
         "repo": "ninja",
         "type": "github"
-      },
-      "storePath": "/nix/store/n11lk1q63864l8vfdl8h8aja1shs3yr7-source"
+      }
     },
     "icu": {
       "hash": "sha256-RKJVoKv40nJqDLqUCtEOaP19OxVk9xjfg8mGfRS1a1k=",
@@ -7109,8 +6716,7 @@
         "ref": "release-65-1",
         "repo": "icu",
         "type": "github"
-      },
-      "storePath": "/nix/store/j3nlq8zjqlq1wcrsxsbw0n6v7s539phh-source"
+      }
     },
     "yams": {
       "hash": "sha256-OONM7QrwjiqmbolWZwi/MmfDfeFAB56tv5kqejwprY4=",
@@ -7127,8 +6733,7 @@
         "ref": "3.0.1",
         "repo": "Yams",
         "type": "github"
-      },
-      "storePath": "/nix/store/nd452v4xkyb557miwmkgfm9njf816wfc-source"
+      }
     },
     "cmake": {
       "hash": "sha256-sWES5sNNqB206Xswa0W60tojbDoUEzLONcCsGp6LhLY=",
@@ -7145,8 +6750,7 @@
         "ref": "v3.16.5",
         "repo": "CMake",
         "type": "github"
-      },
-      "storePath": "/nix/store/4cm5li04sryynx5p0vlvbd0mjnxwzimd-source"
+      }
     },
     "indexstore-db": {
       "hash": "sha256-w+7YGMoBGYDUQQDvig7y6wisfSfHNNRAsGw0KXCE46o=",
@@ -7163,8 +6767,7 @@
         "ref": "release/5.4",
         "repo": "indexstore-db",
         "type": "github"
-      },
-      "storePath": "/nix/store/52xl6h0sw69pqzdha9qglcdaz6gcd2mq-source"
+      }
     },
     "sourcekit-lsp": {
       "hash": "sha256-7JEtldbvLPv6xpQEXDnXyi8tCpFv5Vcnt1BYTYHaqQo=",
@@ -7181,8 +6784,7 @@
         "ref": "release/5.4",
         "repo": "sourcekit-lsp",
         "type": "github"
-      },
-      "storePath": "/nix/store/r63hq1pkzch4rxxnivrpf81fj5c70105-source"
+      }
     },
     "swift-format": {
       "hash": "sha256-k1i8nlZPdYWM5XZFGGVm+rCFThikZ4ZtHi4MqN+rdWo=",
@@ -7199,8 +6801,7 @@
         "ref": "swift-5.4-branch",
         "repo": "swift-format",
         "type": "github"
-      },
-      "storePath": "/nix/store/c5pf67r43yhdchqgys71zv9ikrz4gc28-source"
+      }
     },
     "swift-installer-scripts": {
       "hash": "sha256-qYh2nI9XaecCKmkLMKiTfN5F+SZHSh7ReHC+XcT5yDY=",
@@ -7217,8 +6818,7 @@
         "ref": "main",
         "repo": "swift-installer-scripts",
         "type": "github"
-      },
-      "storePath": "/nix/store/cyhaasqcqk8wszx34439wwkrh298z1nc-source"
+      }
     }
   }
 }
