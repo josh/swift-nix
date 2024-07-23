@@ -70,7 +70,7 @@
                 '';
               };
 
-              swift-project-src =
+              swift-toolchain =
                 let
                   # Parse sources lockfile
                   sourcesLock = builtins.fromJSON (builtins.readFile ./sources.json);
@@ -93,35 +93,46 @@
                   ) sourcesLock;
 
                   # Flatten sources by version into cp statements to unpack full swift-project directory.
-                  # e.g. "6.0" -> [ "cp -r /nix/store/... $out/swift", "cp -r /nix/store/... $out/llvm-project" ]
+                  # e.g. "6.0" -> [ "cp -r /nix/store/... swift", "cp -r /nix/store/... llvm-project" ]
                   copySources = lib.mapAttrs (
-                    _version: sources: lib.mapAttrsToList (repo: source: "cp -r ${source} $out/${repo}") sources
+                    _version: sources: lib.mapAttrsToList (repo: source: "cp -r ${source} ${repo}") sources
                   ) sources;
 
                   # Try to get things working with a specific version to start
                   version = "5.8";
                 in
                 pkgs.stdenv.mkDerivation {
-                  pname = "swift-project";
+                  pname = "swift-toolchain";
                   inherit version;
 
-                  # Just unpack
-                  # phases = "unpackPhase";
-
-                  # dontUnpack = true;
-                  # dontMakeSourcesWritable = true;
-                  unpackPhase = lib.debug.traceVal ''
-                    mkdir -p $out
+                  unpackPhase = ''
                     ${lib.concatStringsSep "\n" copySources."${version}"}
+                    chmod -R u+w .
                   '';
 
-                  dontPatch = true;
+                  #dontPatch = true;
                   dontConfigure = true;
-                  dontBuild = true;
-                  dontInstall = true;
-                  dontFixup = true;
 
-                  dontUpdateAutotoolsGnuConfigScripts = true;
+                  buildInputs = with pkgs; [
+                    clang
+                    cmake
+                    ninja
+                    python3
+                  ];
+
+                  buildPhase = ''
+                    swift/utils/build-script --release-debuginfo
+                  '';
+
+                  #dontUpdateAutotoolsGnuConfigScripts = true;
+                  #updateAutotoolsGnuConfigScriptsPhase = '''';
+
+                  installPhase = ''
+                    mkdir -p $out
+                    cp -r build $out
+                  '';
+
+                  #dontFixup = true;
                 };
             }
           ))
