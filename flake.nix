@@ -105,6 +105,9 @@
                   pname = "swift-project";
                   inherit version;
 
+                  # Just unpack
+                  phases = "unpackPhase";
+
                   # dontUnpack = true;
                   # dontMakeSourcesWritable = true;
                   unpackPhase = lib.debug.traceVal ''
@@ -117,6 +120,8 @@
                   dontBuild = true;
                   dontInstall = true;
                   dontFixup = true;
+
+                  dontUpdateAutotoolsGnuConfigScripts = true;
                 };
             }
           ))
