@@ -67,6 +67,28 @@
                   chmod +x $out/bin/swiftly-install
                 '';
               };
+
+              swift-project-src =
+                let
+                  sources = (import ./sources.nix) {
+                    inherit lib;
+                    inherit (pkgs) fetchFromGitHub;
+                  };
+                in
+                pkgs.stdenv.mkDerivation {
+                  name = "swift-project";
+                  unpackPhase = ''
+                    mkdir -p $out
+                    cp -r ${sources.llvm-project} $out/llvm-project
+                    cp -r ${sources.swift-cmark} $out/swift-cmark
+                    cp -r ${sources.swift} $out/swift
+                  '';
+                  dontPatch = true;
+                  dontConfigure = true;
+                  dontBuild = true;
+                  dontInstall = true;
+                  dontFixup = true;
+                };
             }
           ))
           {
