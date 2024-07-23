@@ -106,7 +106,7 @@
                   inherit version;
 
                   # Just unpack
-                  phases = "unpackPhase";
+                  # phases = "unpackPhase";
 
                   # dontUnpack = true;
                   # dontMakeSourcesWritable = true;
