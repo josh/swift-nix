@@ -72,23 +72,46 @@
 
               swift-project-src =
                 let
+                  # Parse sources lockfile
                   sourcesLock = builtins.fromJSON (builtins.readFile ./sources.json);
-                  fetchSource =
-                    source:
-                    pkgs.fetchFromGitHub {
-                      inherit (source.locked) owner repo rev;
-                      sha256 = source.locked.narHash;
-                    };
-                  sources = lib.mapAttrs (_: repos: (lib.mapAttrs (_: fetchSource) repos)) sourcesLock;
+
+                  # Fetch sources mapping version :: repo -> storePath
+                  # e.g. "6.0" -> { swift = "/nix/store/..."; llvm-project = "/nix/store/..."; }
+                  sources = lib.mapAttrs (
+                    version: repos:
+                    (lib.mapAttrs (
+                      repo:
+                      (
+                        source:
+                        pkgs.fetchFromGitHub {
+                          inherit (source.locked) owner repo rev;
+                          name = "swift-project-${version}-${repo}-source";
+                          sha256 = source.locked.narHash;
+                        }
+                      )
+                    ) repos)
+                  ) sourcesLock;
+
+                  # Flatten sources by version into cp statements to unpack full swift-project directory.
+                  # e.g. "6.0" -> [ "cp -r /nix/store/... $out/swift", "cp -r /nix/store/... $out/llvm-project" ]
+                  copySources = lib.mapAttrs (
+                    _version: sources: lib.mapAttrsToList (repo: source: "cp -r ${source} $out/${repo}") sources
+                  ) sources;
+
+                  # Try to get things working with a specific version to start
+                  version = "5.8";
                 in
                 pkgs.stdenv.mkDerivation {
-                  name = "swift-project";
-                  unpackPhase = ''
+                  pname = "swift-project";
+                  inherit version;
+                  unpackPhase = lib.debug.traceVal ''
                     mkdir -p $out
-                    cp -r ${sources."5.8".llvm-project} $out/llvm-project
-                    cp -r ${sources."5.8".cmark} $out/cmark
-                    cp -r ${sources."5.8".swift} $out/swift
+                    ${lib.concatStringsSep "\n" copySources."${version}"}
                   '';
+
+                  dontUnpack = true;
+                  dontMakeSourcesWritable = true;
+
                   dontPatch = true;
                   dontConfigure = true;
                   dontBuild = true;
