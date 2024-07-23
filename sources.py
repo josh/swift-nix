@@ -39,5 +39,5 @@ for schema, value in checkouts["branch-schemes"].items():
         command = ["nix", "flake", "prefetch", "--json", flake_uri]
         result = subprocess.check_output(command)
         node = json.loads(result)
-        del nod["storePath"]
+        del node["storePath"]
         update_sources_json(schema, repo, node)
