@@ -34,6 +34,8 @@
             shellcheck.enable = true;
             shfmt.enable = true;
             statix.enable = true;
+            ruff.check = true;
+            ruff.format = true;
           };
         }
       );
