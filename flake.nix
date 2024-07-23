@@ -104,13 +104,13 @@
                 pkgs.stdenv.mkDerivation {
                   pname = "swift-project";
                   inherit version;
+
+                  # dontUnpack = true;
+                  # dontMakeSourcesWritable = true;
                   unpackPhase = lib.debug.traceVal ''
                     mkdir -p $out
                     ${lib.concatStringsSep "\n" copySources."${version}"}
                   '';
-
-                  dontUnpack = true;
-                  dontMakeSourcesWritable = true;
 
                   dontPatch = true;
                   dontConfigure = true;
