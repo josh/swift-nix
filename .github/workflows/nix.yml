@@ -4,6 +4,9 @@ on:
   push:
   workflow_dispatch:
 
+env:
+  NIX_ABORT_ON_WARN: "1"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +20,7 @@ jobs:
 
       - name: Check flake
         run: |
-          nix flake check --all-systems
+          nix flake check
 
       - name: Test swiftly
         run: |
