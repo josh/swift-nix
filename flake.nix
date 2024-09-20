@@ -1,6 +1,13 @@
 {
   description = "Swift toolchain";
 
+  nixConfig = {
+    extra-substituters = [ "https://swift-nix.cachix.org" ];
+    extra-trusted-public-keys = [
+      "swift-nix.cachix.org-1:MyKX026S4WH0LMxUyLF6hSUSpG02uufCB/CMql8AhIM="
+    ];
+  };
+
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     treefmt-nix = {
