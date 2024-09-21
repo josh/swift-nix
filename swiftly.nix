@@ -2,6 +2,7 @@
   stdenv,
   fetchurl,
   autoPatchelfHook,
+  makeWrapper,
   zlib,
   arch,
   version,
@@ -17,6 +18,7 @@ stdenv.mkDerivation {
   dontUnpack = true;
   nativeBuildInputs = [
     autoPatchelfHook
+    makeWrapper
   ];
   buildInputs = [
     stdenv.cc.cc.lib
@@ -26,5 +28,7 @@ stdenv.mkDerivation {
     mkdir -p $out/bin $out/share/swiftly
     cp $src $out/bin/swiftly
     chmod +x $out/bin/swiftly
+    wrapProgram "$out/bin/swiftly" \
+      --set SWIFTLY_BIN_DIR "${builtins.placeholder "out"}/bin"
   '';
 }
