@@ -1,17 +1,29 @@
 {
   lib,
   stdenv,
-  fetchurl,
   autoPatchelfHook,
-  makeWrapper,
+  fetchurl,
+  writeShellScriptBin,
   zlib,
   gnupg,
   arch,
   version,
   sha256,
+  mktemp,
 }:
 let
-  runtimeInputs = [ gnupg ];
+  gpgkeys = fetchurl {
+    url = "https://swift.org/keys/all-keys.asc";
+    sha256 = "sha256-HHSfhJjq4Q63x8+cxCJ04jQKDkyAswR1BdsrnVpQnVY=";
+  };
+  wrapGPGHome = writeShellScriptBin "wrapGPGHome" ''
+    echo "#!${stdenv.shell}"
+    echo "set -x"
+    echo "export GNUPGHOME=\"\$(${mktemp}/bin/mktemp -d)\""
+    echo "${gnupg}/bin/gpg --import ${gpgkeys}"
+    echo ""
+    echo "exec -a \"\$0\" "$1" \"\$@\""
+  '';
 in
 stdenv.mkDerivation {
   pname = "swiftly";
@@ -23,17 +35,18 @@ stdenv.mkDerivation {
   dontUnpack = true;
   nativeBuildInputs = [
     autoPatchelfHook
-    makeWrapper
+    wrapGPGHome
   ];
   buildInputs = [
     stdenv.cc.cc.lib
     zlib
   ];
   installPhase = ''
-    mkdir -p $out/bin $out/share/swiftly
-    cp $src $out/bin/swiftly
-    chmod +x $out/bin/swiftly
-    wrapProgram "$out/bin/swiftly" \
-      --prefix PATH : ${lib.makeBinPath runtimeInputs}
+    mkdir -p "$out/bin" "$out/share/swiftly"
+    cp "$src" "$out/bin/.swiftly-wrapped"
+    chmod +x "$out/bin/.swiftly-wrapped"
+
+    wrapGPGHome "$out/bin/.swiftly-wrapped" >"$out/bin/swiftly"
+    chmod +x "$out/bin/swiftly"
   '';
 }
