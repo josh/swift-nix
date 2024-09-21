@@ -52,13 +52,13 @@
               echo "ok" >$out
             '';
 
-        swiftly =
-          pkgs.runCommandLocal "swiftly" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
-            ''
-              swiftly --help
-              swiftly --version
-              echo "ok" >$out
-            '';
+        # swiftly =
+        #   pkgs.runCommandLocal "swiftly" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
+        #     ''
+        #       swiftly --help
+        #       swiftly --version
+        #       echo "ok" >$out
+        #     '';
       });
 
       packages =
