@@ -132,43 +132,17 @@
               };
           }))
           {
-            x86_64-linux.swiftly =
-              let
-                pkgs = nixpkgs.legacyPackages.x86_64-linux;
-              in
-              pkgs.stdenv.mkDerivation {
-                name = "swiftly";
-                version = "0.3.0";
-                src = pkgs.fetchurl {
-                  url = "https://github.com/swiftlang/swiftly/releases/download/0.3.0/swiftly-x86_64-unknown-linux-gnu";
-                  sha256 = "1gll8rq5qrs4wblk8vds9wcfkva0sdmp88kpj2dwvxwjc04x680q";
-                };
-                dontUnpack = true;
-                installPhase = ''
-                  mkdir -p $out/bin
-                  cp $src $out/bin/swiftly
-                  chmod +x $out/bin/swiftly
-                '';
-              };
+            x86_64-linux.swiftly = nixpkgs.legacyPackages.x86_64-linux.callPackage ./swiftly.nix {
+              arch = "x86_64";
+              version = "0.3.0";
+              sha256 = "1gll8rq5qrs4wblk8vds9wcfkva0sdmp88kpj2dwvxwjc04x680q";
+            };
 
-            aarch64-linux.swiftly =
-              let
-                pkgs = nixpkgs.legacyPackages.aarch64-linux;
-              in
-              pkgs.stdenv.mkDerivation {
-                name = "swiftly";
-                version = "0.3.0";
-                src = pkgs.fetchurl {
-                  url = "https://github.com/swiftlang/swiftly/releases/download/0.3.0/swiftly-aarch64-unknown-linux-gnu";
-                  sha256 = "sPxzc+Su/CVI+yrzUYnNhppwd1A+taMwSFMmSBKI/Tw=";
-                };
-                dontUnpack = true;
-                installPhase = ''
-                  mkdir -p $out/bin
-                  cp $src $out/bin/swiftly
-                  chmod +x $out/bin/swiftly
-                '';
-              };
+            aarch64-linux.swiftly = nixpkgs.legacyPackages.aarch64-linux.callPackage ./swiftly.nix {
+              arch = "aarch64";
+              version = "0.3.0";
+              sha256 = "sPxzc+Su/CVI+yrzUYnNhppwd1A+taMwSFMmSBKI/Tw=";
+            };
           };
     };
 }
