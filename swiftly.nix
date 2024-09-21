@@ -1,12 +1,18 @@
 {
+  lib,
   stdenv,
   fetchurl,
   autoPatchelfHook,
+  makeWrapper,
   zlib,
+  gnupg,
   arch,
   version,
   sha256,
 }:
+let
+  runtimeInputs = [ gnupg ];
+in
 stdenv.mkDerivation {
   pname = "swiftly";
   inherit version;
@@ -17,6 +23,7 @@ stdenv.mkDerivation {
   dontUnpack = true;
   nativeBuildInputs = [
     autoPatchelfHook
+    makeWrapper
   ];
   buildInputs = [
     stdenv.cc.cc.lib
@@ -26,5 +33,7 @@ stdenv.mkDerivation {
     mkdir -p $out/bin $out/share/swiftly
     cp $src $out/bin/swiftly
     chmod +x $out/bin/swiftly
+    wrapProgram "$out/bin/swiftly" \
+      --prefix PATH : ${lib.makeBinPath runtimeInputs}
   '';
 }
