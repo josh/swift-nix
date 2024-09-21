@@ -34,13 +34,13 @@
         "aarch64-linux"
         "x86_64-linux"
       ];
-      forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f nixpkgs.legacyPackages.${system});
-      treefmt = forAllSystems (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
+      eachSystem = f: nixpkgs.lib.genAttrs systems (system: f nixpkgs.legacyPackages.${system});
+      treefmt = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
     in
     {
-      formatter = forAllSystems (pkgs: treefmt.${pkgs.system}.config.build.wrapper);
+      formatter = eachSystem (pkgs: treefmt.${pkgs.system}.config.build.wrapper);
 
-      checks = forAllSystems (pkgs: {
+      checks = eachSystem (pkgs: {
         treefmt = treefmt.${pkgs.system}.config.build.check self;
 
         swiftly-install =
@@ -63,7 +63,7 @@
 
       packages =
         lib.attrsets.recursiveUpdate
-          (forAllSystems (pkgs: {
+          (eachSystem (pkgs: {
             swiftly-install = pkgs.stdenv.mkDerivation {
               name = "swiftly-install";
               src = swiftly;
