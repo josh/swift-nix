@@ -48,6 +48,7 @@
             { buildInputs = [ self.packages.${pkgs.system}.swiftly-install ]; }
             ''
               swiftly-install --help
+              swiftly-install --version
               echo "ok" >$out
             '';
 
@@ -55,6 +56,7 @@
           pkgs.runCommandLocal "swiftly" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
             ''
               swiftly --help
+              swiftly --version
               echo "ok" >$out
             '';
       });
