@@ -80,6 +80,25 @@
               version = "0.3.0";
               sha256 = "sPxzc+Su/CVI+yrzUYnNhppwd1A+taMwSFMmSBKI/Tw=";
             };
+
+            x86_64-linux.swift-toolchain-ubuntu =
+              nixpkgs.legacyPackages.x86_64-linux.callPackage ./swift-binary.nix
+                {
+                  platform = "ubuntu2404";
+                  platformFull = "ubuntu24.04";
+                  version = "6.0";
+                  sha256 = "sha256-ozA7ZMuxHSzYvve+vwxLCatRK5kClGpkuOcwD79vhZc=";
+                };
+
+            aarch64-linux.swift-toolchain-ubuntu =
+              nixpkgs.legacyPackages.x86_64-linux.callPackage ./swift-binary.nix
+                {
+                  arch = "aarch64";
+                  platform = "ubuntu2404";
+                  platformFull = "ubuntu24.04";
+                  version = "6.0";
+                  sha256 = "sha256-yOyR5UkGv8NYbIlkiF/hnmB1Lt/PcsAHUH3SP9AxTFg=";
+                };
           };
     };
 }
