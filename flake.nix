@@ -64,22 +64,7 @@
       packages =
         lib.attrsets.recursiveUpdate
           (eachSystem (pkgs: {
-            swiftly-install = pkgs.stdenv.mkDerivation {
-              name = "swiftly-install";
-              src = swiftly;
-              nativeBuildInputs = [ pkgs.makeWrapper ];
-              installPhase = ''
-                mkdir -p $out/bin
-                cp $src/install/swiftly-install.sh $out/bin/swiftly-install
-                wrapProgram "$out/bin/swiftly-install" --prefix PATH : ${
-                  pkgs.lib.makeBinPath [
-                    pkgs.curl
-                    pkgs.getopt
-                  ]
-                }
-                chmod +x $out/bin/swiftly-install
-              '';
-            };
+            swiftly-install = pkgs.callPackage ./swiftly-install.nix { };
 
             swift-toolchain =
               let
