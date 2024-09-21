@@ -19,7 +19,25 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
+        "swiftly": "swiftly",
         "treefmt-nix": "treefmt-nix"
+      }
+    },
+    "swiftly": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1724672786,
+        "narHash": "sha256-LHQ/Q6kb3eZJqey3+E7Cxqxn7dpg5GzWtGWt/efz+Io=",
+        "owner": "swiftlang",
+        "repo": "swiftly",
+        "rev": "a7ef9e838b21b7f2836f318e67b4bffa6bee259f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "main",
+        "repo": "swiftly",
+        "type": "github"
       }
     },
     "treefmt-nix": {

@@ -29,11 +29,3 @@ jobs:
       - name: Check flake
         run: |
           nix flake check
-
-      - name: Test swiftly
-        run: |
-          nix run .#swiftly-install -- --help
-
-      - name: Test swiftly
-        run: |
-          nix run .#swiftly -- --help

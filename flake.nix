@@ -9,10 +9,14 @@
   };
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";
       inputs.nixpkgs.follows = "nixpkgs";
+    };
+    swiftly = {
+      url = "github:swiftlang/swiftly/main";
+      flake = false;
     };
   };
 
@@ -21,6 +25,7 @@
       self,
       nixpkgs,
       treefmt-nix,
+      swiftly,
     }:
     let
       inherit (nixpkgs) lib;
@@ -33,11 +38,25 @@
       treefmt = forAllSystems (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
     in
     {
-
       formatter = forAllSystems (pkgs: treefmt.${pkgs.system}.config.build.wrapper);
 
       checks = forAllSystems (pkgs: {
         treefmt = treefmt.${pkgs.system}.config.build.check self;
+
+        swiftly-install =
+          pkgs.runCommandLocal "swiftly-install"
+            { buildInputs = [ self.packages.${pkgs.system}.swiftly-install ]; }
+            ''
+              swiftly-install --help
+              echo "ok" >$out
+            '';
+
+        swiftly =
+          pkgs.runCommandLocal "swiftly" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
+            ''
+              swiftly --help
+              echo "ok" >$out
+            '';
       });
 
       packages =
@@ -45,14 +64,17 @@
           (forAllSystems (pkgs: {
             swiftly-install = pkgs.stdenv.mkDerivation {
               name = "swiftly-install";
-              src = pkgs.fetchurl {
-                url = "https://swiftlang.github.io/swiftly/swiftly-install.sh";
-                sha256 = "m+2G82gj4XjW/pX84AWIuILsbpF8IDKkj+bNThVBFlc=";
-              };
-              dontUnpack = true;
+              src = swiftly;
+              nativeBuildInputs = [ pkgs.makeWrapper ];
               installPhase = ''
                 mkdir -p $out/bin
-                cp $src $out/bin/swiftly-install
+                cp $src/install/swiftly-install.sh $out/bin/swiftly-install
+                wrapProgram "$out/bin/swiftly-install" --prefix PATH : ${
+                  pkgs.lib.makeBinPath [
+                    pkgs.curl
+                    pkgs.getopt
+                  ]
+                }
                 chmod +x $out/bin/swiftly-install
               '';
             };
