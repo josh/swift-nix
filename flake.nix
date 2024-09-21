@@ -52,13 +52,6 @@
               echo "ok" >$out
             '';
 
-        swiftly-config =
-          pkgs.runCommandLocal "swiftly-config-check"
-            { buildInputs = [ self.packages.${pkgs.system}.swiftly-config ]; }
-            ''
-              swiftly-config >"$out"
-            '';
-
         swiftly =
           pkgs.runCommandLocal "swiftly-check" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
             ''
