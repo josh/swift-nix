@@ -52,6 +52,13 @@
               echo "ok" >$out
             '';
 
+        swiftly-config =
+          pkgs.runCommandLocal "swiftly-config-check"
+            { buildInputs = [ self.packages.${pkgs.system}.swiftly-config ]; }
+            ''
+              swiftly-config >"$out"
+            '';
+
         swiftly =
           pkgs.runCommandLocal "swiftly-check" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
             ''
@@ -65,6 +72,7 @@
         lib.attrsets.recursiveUpdate
           (eachSystem (pkgs: {
             swiftly-install = pkgs.callPackage ./swiftly-install.nix { };
+            swiftly-config = pkgs.callPackage ./swiftly-config.nix { };
             swift-toolchain = pkgs.callPackage ./swift-toolchain.nix { };
           }))
           {

@@ -23,7 +23,7 @@ stdenv.mkDerivation {
     zlib
   ];
   installPhase = ''
-    mkdir -p $out/bin
+    mkdir -p $out/bin $out/share/swiftly
     cp $src $out/bin/swiftly
     chmod +x $out/bin/swiftly
   '';
