@@ -44,7 +44,7 @@
         treefmt = treefmt.${pkgs.system}.config.build.check self;
 
         swiftly-install =
-          pkgs.runCommandLocal "swiftly-install"
+          pkgs.runCommandLocal "swiftly-install-check"
             { buildInputs = [ self.packages.${pkgs.system}.swiftly-install ]; }
             ''
               swiftly-install --help
@@ -53,7 +53,7 @@
             '';
 
         swiftly =
-          pkgs.runCommandLocal "swiftly" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
+          pkgs.runCommandLocal "swiftly-check" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
             ''
               swiftly --help
               swiftly --version
