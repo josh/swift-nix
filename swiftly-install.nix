@@ -4,6 +4,7 @@
   fetchurl,
   makeWrapper,
   curl,
+  cacert,
   getopt,
   # https://github.com/swiftlang/swiftly/commits/main/install/swiftly-install.sh
   commitSHA ? "bcfd8439a078893c11d3331c193e2b6a7b431887",
@@ -27,6 +28,8 @@ stdenv.mkDerivation {
     mkdir -p $out/bin
     cp $src $out/bin/swiftly-install
     chmod +x $out/bin/swiftly-install
-    wrapProgram "$out/bin/swiftly-install" --prefix PATH : ${lib.makeBinPath runtimeInputs}
+    wrapProgram "$out/bin/swiftly-install" \
+      --prefix PATH : ${lib.makeBinPath runtimeInputs} \
+      --set SSL_CERT_FILE "${cacert}/etc/ssl/certs/ca-bundle.crt"
   '';
 }
