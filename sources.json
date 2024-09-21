@@ -781,6 +781,23 @@
         "repo": "zlib",
         "type": "github"
       }
+    },
+    "swift-testing": {
+      "hash": "sha256-//IfNF2mw/4PM+i7iP6ZqQOju1Kb5/+aaik6X4VGCaI=",
+      "locked": {
+        "lastModified": 1726869663,
+        "narHash": "sha256-//IfNF2mw/4PM+i7iP6ZqQOju1Kb5/+aaik6X4VGCaI=",
+        "owner": "swiftlang",
+        "repo": "swift-testing",
+        "rev": "65138ffae7c57abc9ce4a17ecf89c4373f12b1a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0",
+        "repo": "swift-testing",
+        "type": "github"
+      }
     }
   },
   "5.10": {
@@ -6817,6 +6834,552 @@
         "owner": "swiftlang",
         "ref": "main",
         "repo": "swift-installer-scripts",
+        "type": "github"
+      }
+    }
+  },
+  "6.0.0": {
+    "llvm-project": {
+      "hash": "sha256-P0IEyQLcMkaL7lGOxq2GOQXn8q0pCsnW06RB4Lrq0io=",
+      "locked": {
+        "lastModified": 1725925815,
+        "narHash": "sha256-P0IEyQLcMkaL7lGOxq2GOQXn8q0pCsnW06RB4Lrq0io=",
+        "owner": "swiftlang",
+        "repo": "llvm-project",
+        "rev": "73500bf55acff5fa97b56dcdeb013f288efd084f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "swift/release/6.0.0",
+        "repo": "llvm-project",
+        "type": "github"
+      }
+    },
+    "swift-llvm-bindings": {
+      "hash": "sha256-zaEmzuQZLskIZuWeyJLOZc4hGTU7t0wWLjnGrRz2NYo=",
+      "locked": {
+        "lastModified": 1694015786,
+        "narHash": "sha256-zaEmzuQZLskIZuWeyJLOZc4hGTU7t0wWLjnGrRz2NYo=",
+        "owner": "swiftlang",
+        "repo": "swift-llvm-bindings",
+        "rev": "680142b5179e43dbb6f1f0db42009b76a6f13b88",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "swift/release/6.0.0",
+        "repo": "swift-llvm-bindings",
+        "type": "github"
+      }
+    },
+    "swift": {
+      "hash": "sha256-j/h8w+Gyf2RGNk4W3LZs+cVyzakgPDYQjFlmIECqoBw=",
+      "locked": {
+        "lastModified": 1726853094,
+        "narHash": "sha256-j/h8w+Gyf2RGNk4W3LZs+cVyzakgPDYQjFlmIECqoBw=",
+        "owner": "swiftlang",
+        "repo": "swift",
+        "rev": "8d5ca1e01091def03c3af0baf6012cb8ab3ecde7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift",
+        "type": "github"
+      }
+    },
+    "cmark": {
+      "hash": "sha256-b/igbZbHFXK/SqS84UGWsUoVjChNFBb0t0w4HoPTguE=",
+      "locked": {
+        "lastModified": 1721324077,
+        "narHash": "sha256-b/igbZbHFXK/SqS84UGWsUoVjChNFBb0t0w4HoPTguE=",
+        "owner": "swiftlang",
+        "repo": "swift-cmark",
+        "rev": "3ccff77b2dc5b96b77db3da0d68d28068593fa53",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-cmark",
+        "type": "github"
+      }
+    },
+    "llbuild": {
+      "hash": "sha256-OpYHGPV1LRdBrc3R2Bq1RLOq4flPwVzQLtrSLONKHO4=",
+      "locked": {
+        "lastModified": 1725578289,
+        "narHash": "sha256-OpYHGPV1LRdBrc3R2Bq1RLOq4flPwVzQLtrSLONKHO4=",
+        "owner": "swiftlang",
+        "repo": "swift-llbuild",
+        "rev": "322a06adf86c9136baf53a503daeb837b3920885",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-llbuild",
+        "type": "github"
+      }
+    },
+    "swift-tools-support-core": {
+      "hash": "sha256-2AZVIq22vvyXZhxzZcx4sv9qbzX3E8jwCJXAZZZZYm8=",
+      "locked": {
+        "lastModified": 1722908600,
+        "narHash": "sha256-2AZVIq22vvyXZhxzZcx4sv9qbzX3E8jwCJXAZZZZYm8=",
+        "owner": "swiftlang",
+        "repo": "swift-tools-support-core",
+        "rev": "3e5d9c81a087832dffba0e4914ceb98caca594ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-tools-support-core",
+        "type": "github"
+      }
+    },
+    "swiftpm": {
+      "hash": "sha256-fHKJ/t+TAT+gBBHkykufQigPJEi6qXCHG21fPkH2Ti4=",
+      "locked": {
+        "lastModified": 1726770799,
+        "narHash": "sha256-fHKJ/t+TAT+gBBHkykufQigPJEi6qXCHG21fPkH2Ti4=",
+        "owner": "swiftlang",
+        "repo": "swift-package-manager",
+        "rev": "46c1bd30b39a1393c520dcb51aeb64a6fb5a3887",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-package-manager",
+        "type": "github"
+      }
+    },
+    "swift-argument-parser": {
+      "hash": "sha256-qEJ329hqQyQVxtHScD7qPmWW9ZDf9bX+4xgpDlX0w5A=",
+      "locked": {
+        "lastModified": 1692126095,
+        "narHash": "sha256-qEJ329hqQyQVxtHScD7qPmWW9ZDf9bX+4xgpDlX0w5A=",
+        "owner": "apple",
+        "repo": "swift-argument-parser",
+        "rev": "8f4d2753f0e4778c76d5f05ad16c74f707390531",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "1.2.3",
+        "repo": "swift-argument-parser",
+        "type": "github"
+      }
+    },
+    "swift-atomics": {
+      "hash": "sha256-Ho3/BDUwAVGG26u8Jz2j1mwqFRcLc+DTlqTyGelM+Gc=",
+      "locked": {
+        "lastModified": 1695864389,
+        "narHash": "sha256-Ho3/BDUwAVGG26u8Jz2j1mwqFRcLc+DTlqTyGelM+Gc=",
+        "owner": "apple",
+        "repo": "swift-atomics",
+        "rev": "cd142fd2f64be2100422d658e7411e39489da985",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "1.2.0",
+        "repo": "swift-atomics",
+        "type": "github"
+      }
+    },
+    "swift-collections": {
+      "hash": "sha256-Lomz4BOsTN4MDKBL3pnfkbQQ6QelzUKE2Hw1YGUruZg=",
+      "locked": {
+        "lastModified": 1720463001,
+        "narHash": "sha256-Lomz4BOsTN4MDKBL3pnfkbQQ6QelzUKE2Hw1YGUruZg=",
+        "owner": "apple",
+        "repo": "swift-collections",
+        "rev": "3d2dc41a01f9e49d84f0a3925fb858bed64f702d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "1.1.2",
+        "repo": "swift-collections",
+        "type": "github"
+      }
+    },
+    "swift-crypto": {
+      "hash": "sha256-lcB497b/T1bHShPrjNjHthrs76pDFpU+4uN0uW4tz+4=",
+      "locked": {
+        "lastModified": 1694603002,
+        "narHash": "sha256-lcB497b/T1bHShPrjNjHthrs76pDFpU+4uN0uW4tz+4=",
+        "owner": "apple",
+        "repo": "swift-crypto",
+        "rev": "629f0b679d0fd0a6ae823d7f750b9ab032c00b80",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "3.0.0",
+        "repo": "swift-crypto",
+        "type": "github"
+      }
+    },
+    "swift-certificates": {
+      "hash": "sha256-n5dE5J8f7PAVoJkIpiKrrDvB0xIil5VwtzC2mx6vz80=",
+      "locked": {
+        "lastModified": 1695661874,
+        "narHash": "sha256-n5dE5J8f7PAVoJkIpiKrrDvB0xIil5VwtzC2mx6vz80=",
+        "owner": "apple",
+        "repo": "swift-certificates",
+        "rev": "01d7664523af5c169f26038f1e5d444ce47ae5ff",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "1.0.1",
+        "repo": "swift-certificates",
+        "type": "github"
+      }
+    },
+    "swift-asn1": {
+      "hash": "sha256-66NK8Qw7A6JAGeRDHODEhRP8yoCewYwK7zYc1uB1j5g=",
+      "locked": {
+        "lastModified": 1695032451,
+        "narHash": "sha256-66NK8Qw7A6JAGeRDHODEhRP8yoCewYwK7zYc1uB1j5g=",
+        "owner": "apple",
+        "repo": "swift-asn1",
+        "rev": "12c24ff59d541e5ef15116095445ce72b85cd0c6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "1.0.0",
+        "repo": "swift-asn1",
+        "type": "github"
+      }
+    },
+    "swift-driver": {
+      "hash": "sha256-AqvR6Sk3ifUvpTMmEL4e+1RWWewlZyceJhRZShWhOcc=",
+      "locked": {
+        "lastModified": 1723564757,
+        "narHash": "sha256-AqvR6Sk3ifUvpTMmEL4e+1RWWewlZyceJhRZShWhOcc=",
+        "owner": "swiftlang",
+        "repo": "swift-driver",
+        "rev": "ddec3979d48b535ac647aec8b03d380cea0fc26a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-driver",
+        "type": "github"
+      }
+    },
+    "swift-numerics": {
+      "hash": "sha256-D4cOMa26NYhVzRz3le5CPydn9qEFbFLAqgonPRB0cVo=",
+      "locked": {
+        "lastModified": 1637245269,
+        "narHash": "sha256-D4cOMa26NYhVzRz3le5CPydn9qEFbFLAqgonPRB0cVo=",
+        "owner": "apple",
+        "repo": "swift-numerics",
+        "rev": "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "1.0.2",
+        "repo": "swift-numerics",
+        "type": "github"
+      }
+    },
+    "swift-syntax": {
+      "hash": "sha256-bpv8FjgRXt6dNw7Ys46V7VoT04ASG7uQbQAPJWZZd1M=",
+      "locked": {
+        "lastModified": 1723499523,
+        "narHash": "sha256-bpv8FjgRXt6dNw7Ys46V7VoT04ASG7uQbQAPJWZZd1M=",
+        "owner": "swiftlang",
+        "repo": "swift-syntax",
+        "rev": "515f79b522918f83483068d99c68daeb5116342d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-syntax",
+        "type": "github"
+      }
+    },
+    "swift-system": {
+      "hash": "sha256-m8ZryRuaaXqw1jpBNhw5rw0AgragnsH1BxDi7tRsjOk=",
+      "locked": {
+        "lastModified": 1715809683,
+        "narHash": "sha256-m8ZryRuaaXqw1jpBNhw5rw0AgragnsH1BxDi7tRsjOk=",
+        "owner": "apple",
+        "repo": "swift-system",
+        "rev": "f9266c85189c2751589a50ea5aec72799797e471",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "1.3.0",
+        "repo": "swift-system",
+        "type": "github"
+      }
+    },
+    "swift-stress-tester": {
+      "hash": "sha256-zYgM3Q/+6WaTD9RcIt/VFKJfaQgRL89W9fcTVIwiufc=",
+      "locked": {
+        "lastModified": 1719374874,
+        "narHash": "sha256-zYgM3Q/+6WaTD9RcIt/VFKJfaQgRL89W9fcTVIwiufc=",
+        "owner": "swiftlang",
+        "repo": "swift-stress-tester",
+        "rev": "2f54b42c054de02099e9ed0c887f7c6da2073dab",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-stress-tester",
+        "type": "github"
+      }
+    },
+    "swift-testing": {
+      "hash": "sha256-LEonohtch/XsHXMxKfeUxRtWQS5dDK4d2hm5f9TrLhA=",
+      "locked": {
+        "lastModified": 1726862330,
+        "narHash": "sha256-LEonohtch/XsHXMxKfeUxRtWQS5dDK4d2hm5f9TrLhA=",
+        "owner": "swiftlang",
+        "repo": "swift-testing",
+        "rev": "324940967b09dbbd06055e70c6016b83bc9389cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-testing",
+        "type": "github"
+      }
+    },
+    "swift-corelibs-xctest": {
+      "hash": "sha256-99mEGgJF3zagFBNbPH1QeltTjqkdsfJYix14LWSKw1Q=",
+      "locked": {
+        "lastModified": 1725511742,
+        "narHash": "sha256-99mEGgJF3zagFBNbPH1QeltTjqkdsfJYix14LWSKw1Q=",
+        "owner": "apple",
+        "repo": "swift-corelibs-xctest",
+        "rev": "9c016d4e9e7981299a2b5625bdbee7b54462f591",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "release/6.0.0",
+        "repo": "swift-corelibs-xctest",
+        "type": "github"
+      }
+    },
+    "swift-corelibs-foundation": {
+      "hash": "sha256-Z0Z/0PV9PQ0XhB8TJl5Bgaz+jzyDKW0emVarQoMWpIw=",
+      "locked": {
+        "lastModified": 1723838504,
+        "narHash": "sha256-Z0Z/0PV9PQ0XhB8TJl5Bgaz+jzyDKW0emVarQoMWpIw=",
+        "owner": "apple",
+        "repo": "swift-corelibs-foundation",
+        "rev": "59e6789524d8593320076e27e39b3852bacf20ca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "release/6.0.0",
+        "repo": "swift-corelibs-foundation",
+        "type": "github"
+      }
+    },
+    "swift-foundation": {
+      "hash": "sha256-iq3X5SWpicE7gY9PjKmKEkjphOUlrFzXeMtPJROMznA=",
+      "locked": {
+        "lastModified": 1726276180,
+        "narHash": "sha256-iq3X5SWpicE7gY9PjKmKEkjphOUlrFzXeMtPJROMznA=",
+        "owner": "apple",
+        "repo": "swift-foundation",
+        "rev": "e828556683af614117daaaafea0307c98c3a93de",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "release/6.0.0",
+        "repo": "swift-foundation",
+        "type": "github"
+      }
+    },
+    "swift-foundation-icu": {
+      "hash": "sha256-GURX4O42HQJW38jLlTyc1TmLWHSaDfn7IagHMV3/XIY=",
+      "locked": {
+        "lastModified": 1723051064,
+        "narHash": "sha256-GURX4O42HQJW38jLlTyc1TmLWHSaDfn7IagHMV3/XIY=",
+        "owner": "apple",
+        "repo": "swift-foundation-icu",
+        "rev": "be50023b7b3e8142f08768dbeebf9712240fb653",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "release/6.0.0",
+        "repo": "swift-foundation-icu",
+        "type": "github"
+      }
+    },
+    "swift-corelibs-libdispatch": {
+      "hash": "sha256-vZ0JddR31wyFOjmSqEuzIJNBQIUgcLpjabbnlSF3LqY=",
+      "locked": {
+        "lastModified": 1718237606,
+        "narHash": "sha256-vZ0JddR31wyFOjmSqEuzIJNBQIUgcLpjabbnlSF3LqY=",
+        "owner": "apple",
+        "repo": "swift-corelibs-libdispatch",
+        "rev": "137b6cf3060eae87d9b367c263619c2eca5d3aac",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "release/6.0.0",
+        "repo": "swift-corelibs-libdispatch",
+        "type": "github"
+      }
+    },
+    "swift-integration-tests": {
+      "hash": "sha256-FP40EeNwlL8sL2kVIpjuPcFp4cfx6PGQSSFNvQepuVU=",
+      "locked": {
+        "lastModified": 1724721666,
+        "narHash": "sha256-FP40EeNwlL8sL2kVIpjuPcFp4cfx6PGQSSFNvQepuVU=",
+        "owner": "swiftlang",
+        "repo": "swift-integration-tests",
+        "rev": "874bd0f5b0fa23c18f601d9bdd1dded34e6637ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-integration-tests",
+        "type": "github"
+      }
+    },
+    "swift-xcode-playground-support": {
+      "hash": "sha256-esv5h1SLs/oy7hr4CwhnHufwlBxu2Q+gfbTYU/LlkyE=",
+      "locked": {
+        "lastModified": 1653415821,
+        "narHash": "sha256-esv5h1SLs/oy7hr4CwhnHufwlBxu2Q+gfbTYU/LlkyE=",
+        "owner": "apple",
+        "repo": "swift-xcode-playground-support",
+        "rev": "bbba1ba704c37d1d0131bb7d6986a80ad8cb6d6c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apple",
+        "ref": "release/6.0.0",
+        "repo": "swift-xcode-playground-support",
+        "type": "github"
+      }
+    },
+    "ninja": {
+      "hash": "sha256-LvV/Fi2ARXBkfyA1paCRmLUwCh/rTyz+tGMg2/qEepI=",
+      "locked": {
+        "lastModified": 1661888822,
+        "narHash": "sha256-LvV/Fi2ARXBkfyA1paCRmLUwCh/rTyz+tGMg2/qEepI=",
+        "owner": "ninja-build",
+        "repo": "ninja",
+        "rev": "a524bf3f6bacd1b4ad85d719eed2737d8562f27a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ninja-build",
+        "ref": "v1.11.1",
+        "repo": "ninja",
+        "type": "github"
+      }
+    },
+    "yams": {
+      "hash": "sha256-AY/fIvB7THrl9GWzGJL8eDBbkcLw27tSRTGtUqmYw8k=",
+      "locked": {
+        "lastModified": 1687192522,
+        "narHash": "sha256-AY/fIvB7THrl9GWzGJL8eDBbkcLw27tSRTGtUqmYw8k=",
+        "owner": "jpsim",
+        "repo": "Yams",
+        "rev": "0d9ee7ea8c4ebd4a489ad7a73d5c6cad55d6fed3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jpsim",
+        "ref": "5.0.6",
+        "repo": "Yams",
+        "type": "github"
+      }
+    },
+    "cmake": {
+      "hash": "sha256-3RAmxoX2zaKlg2yj3fTWMfBhj0TFNdVKQfJyG0epVg4=",
+      "locked": {
+        "lastModified": 1663077202,
+        "narHash": "sha256-3RAmxoX2zaKlg2yj3fTWMfBhj0TFNdVKQfJyG0epVg4=",
+        "owner": "KitWare",
+        "repo": "CMake",
+        "rev": "31f835410efeea50acd43512eb9e5646a26ea177",
+        "type": "github"
+      },
+      "original": {
+        "owner": "KitWare",
+        "ref": "v3.24.2",
+        "repo": "CMake",
+        "type": "github"
+      }
+    },
+    "indexstore-db": {
+      "hash": "sha256-OP0+qCXc+Z5+Lz5h/1T6JvPbOjdoPEpZ7yGVWbWYxGw=",
+      "locked": {
+        "lastModified": 1721319063,
+        "narHash": "sha256-OP0+qCXc+Z5+Lz5h/1T6JvPbOjdoPEpZ7yGVWbWYxGw=",
+        "owner": "swiftlang",
+        "repo": "indexstore-db",
+        "rev": "f4d7f08f6a078050d86aed10a06bf1fc871a8ded",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "indexstore-db",
+        "type": "github"
+      }
+    },
+    "sourcekit-lsp": {
+      "hash": "sha256-m7LGHa2M2h4Ncbf18Eu5Mv8TGieoZ6HqOW1mToFtssY=",
+      "locked": {
+        "lastModified": 1721962891,
+        "narHash": "sha256-m7LGHa2M2h4Ncbf18Eu5Mv8TGieoZ6HqOW1mToFtssY=",
+        "owner": "swiftlang",
+        "repo": "sourcekit-lsp",
+        "rev": "480bb0c5328dab7350cbfcc9c1105a2cfd48a32f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "sourcekit-lsp",
+        "type": "github"
+      }
+    },
+    "swift-format": {
+      "hash": "sha256-xBE4/ttVQWOXzTH/Hc0efRPTRT1V56rwja3rMwV2Mmk=",
+      "locked": {
+        "lastModified": 1722032057,
+        "narHash": "sha256-xBE4/ttVQWOXzTH/Hc0efRPTRT1V56rwja3rMwV2Mmk=",
+        "owner": "swiftlang",
+        "repo": "swift-format",
+        "rev": "58f07e3aeca179d202ba4991976a83687d64307f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swiftlang",
+        "ref": "release/6.0.0",
+        "repo": "swift-format",
         "type": "github"
       }
     }
