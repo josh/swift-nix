@@ -51,4 +51,5 @@ stdenv.mkDerivation {
   installPhase = ''
     cp -r usr/ $out
   '';
+  meta.mainProgram = "swift";
 }
