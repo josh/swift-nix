@@ -30,7 +30,6 @@
     let
       inherit (nixpkgs) lib;
       systems = [
-        "aarch64-darwin"
         "aarch64-linux"
         "x86_64-linux"
       ];
@@ -59,46 +58,53 @@
               swiftly --version
               echo "ok" >$out
             '';
+
+        swift-toolchain =
+          pkgs.runCommandLocal "swift-toolchain-check"
+            { buildInputs = [ self.packages.${pkgs.system}.swift-toolchain ]; }
+            ''
+              swift --version
+              echo "ok" >$out
+            '';
       });
 
-      packages =
-        lib.attrsets.recursiveUpdate
-          (eachSystem (pkgs: {
+      packages = {
+        x86_64-linux =
+          let
+            pkgs = nixpkgs.legacyPackages.x86_64-linux;
+          in
+          {
             swiftly-install = pkgs.callPackage ./swiftly-install.nix { };
             swiftly-config = pkgs.callPackage ./swiftly-config.nix { };
-            swift-toolchain = pkgs.callPackage ./swift-toolchain.nix { };
-          }))
-          {
-            x86_64-linux.swiftly = nixpkgs.legacyPackages.x86_64-linux.callPackage ./swiftly.nix {
+            swiftly = pkgs.callPackage ./swiftly.nix {
               arch = "x86_64";
               version = "0.3.0";
               sha256 = "1gll8rq5qrs4wblk8vds9wcfkva0sdmp88kpj2dwvxwjc04x680q";
             };
+            swift-toolchain = pkgs.callPackage ./swift-toolchain.nix {
+              version = "6.0";
+              sha256 = "sha256-ozA7ZMuxHSzYvve+vwxLCatRK5kClGpkuOcwD79vhZc=";
+            };
+          };
 
-            aarch64-linux.swiftly = nixpkgs.legacyPackages.aarch64-linux.callPackage ./swiftly.nix {
+        aarch64-linux =
+          let
+            pkgs = nixpkgs.legacyPackages.aarch64-linux;
+          in
+          {
+            swiftly-install = pkgs.callPackage ./swiftly-install.nix { };
+            swiftly-config = pkgs.callPackage ./swiftly-config.nix { };
+            swiftly = pkgs.callPackage ./swiftly.nix {
               arch = "aarch64";
               version = "0.3.0";
               sha256 = "sPxzc+Su/CVI+yrzUYnNhppwd1A+taMwSFMmSBKI/Tw=";
             };
-
-            x86_64-linux.swift-toolchain-ubuntu =
-              nixpkgs.legacyPackages.x86_64-linux.callPackage ./swift-binary.nix
-                {
-                  platform = "ubuntu2404";
-                  platformFull = "ubuntu24.04";
-                  version = "6.0";
-                  sha256 = "sha256-ozA7ZMuxHSzYvve+vwxLCatRK5kClGpkuOcwD79vhZc=";
-                };
-
-            aarch64-linux.swift-toolchain-ubuntu =
-              nixpkgs.legacyPackages.x86_64-linux.callPackage ./swift-binary.nix
-                {
-                  arch = "aarch64";
-                  platform = "ubuntu2404";
-                  platformFull = "ubuntu24.04";
-                  version = "6.0";
-                  sha256 = "sha256-yOyR5UkGv8NYbIlkiF/hnmB1Lt/PcsAHUH3SP9AxTFg=";
-                };
+            swift-toolchain = pkgs.callPackage ./swift-toolchain.nix {
+              arch = "aarch64";
+              version = "6.0";
+              sha256 = "sha256-yOyR5UkGv8NYbIlkiF/hnmB1Lt/PcsAHUH3SP9AxTFg=";
+            };
           };
+      };
     };
 }

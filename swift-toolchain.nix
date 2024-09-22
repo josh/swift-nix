@@ -1,70 +1,54 @@
 {
-  lib,
   stdenv,
-  fetchFromGitHub,
-  clang,
-  cmake,
-  ninja,
+  autoPatchelfHook,
+  fetchurl,
+  arch ? "x86_64",
+  platform ? "ubuntu2404",
+  platformFull ? "ubuntu24.04",
+  version,
+  sha256,
+  binutils,
+  curl,
+  glibc,
+  icu,
+  libgcc,
+  libedit,
+  libuuid,
+  libxml2,
+  ncurses,
   python3,
-  version ? "5.10",
+  sqlite,
+  z3,
 }:
 let
-  # Parse sources lockfile
-  sourcesLock = builtins.fromJSON (builtins.readFile ./sources.json);
-
-  # Fetch sources mapping version :: repo -> storePath
-  # e.g. "6.0" -> { swift = "/nix/store/..."; llvm-project = "/nix/store/..."; }
-  sources = lib.mapAttrs (
-    version: repos:
-    (lib.mapAttrs (
-      repo:
-      (
-        source:
-        fetchFromGitHub {
-          inherit (source.locked) owner repo rev;
-          name = "swift-project-${version}-${repo}-source";
-          sha256 = source.locked.narHash;
-        }
-      )
-    ) repos)
-  ) sourcesLock;
-
-  # Flatten sources by version into cp statements to unpack full swift-project directory.
-  # e.g. "6.0" -> [ "cp -r /nix/store/... swift", "cp -r /nix/store/... llvm-project" ]
-  copySources = lib.mapAttrs (
-    _version: sources: lib.mapAttrsToList (repo: source: "cp -r ${source} ${repo}") sources
-  ) sources;
+  archSuffix = if arch == "x86_64" then "" else "-aarch64";
+  url = "https://download.swift.org/swift-${version}-release/${platform}${archSuffix}/swift-${version}-RELEASE/swift-${version}-RELEASE-${platformFull}${archSuffix}.tar.gz";
 in
 stdenv.mkDerivation {
   pname = "swift-toolchain";
   inherit version;
-
-  unpackPhase = ''
-    ${lib.concatStringsSep "\n" copySources."${version}"}
-    chmod -R u+w .
-  '';
-
-  #dontPatch = true;
-  dontConfigure = true;
-
-  buildInputs = [
-    clang
-    cmake
-    ninja
-    python3
+  src = fetchurl {
+    inherit url sha256;
+  };
+  nativeBuildInputs = [
+    autoPatchelfHook
   ];
-
-  buildPhase = ''
-    swift/utils/build-script --release-debuginfo
-  '';
-
-  #dontUpdateAutotoolsGnuConfigScripts = true;
-  #updateAutotoolsGnuConfigScriptsPhase = '''';
-
+  buildInputs = [
+    binutils
+    curl
+    glibc
+    icu
+    libedit
+    libgcc.lib
+    libuuid.lib
+    libxml2
+    ncurses
+    python3
+    sqlite
+    z3.lib
+  ];
+  autoPatchelfIgnoreMissingDeps = [ "libedit.so.2" ];
   installPhase = ''
-    mkdir -p $out
-    cp -r build $out
+    cp -r usr/ $out
   '';
-
-  #dontFixup = true;
 }
