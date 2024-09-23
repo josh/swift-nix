@@ -89,12 +89,14 @@
             swiftly = callPackage ./swiftly.nix {
               version = "0.3.0";
             };
-            swift-toolchain = callPackage ./swift-toolchain.nix {
+            swift-toolchain6 = callPackage ./swift-toolchain.nix {
               version = "6.0";
             };
-            swift-toolchain510 = callPackage ./swift-toolchain.nix {
+            swift-toolchain510 = packages.swift-toolchain.override {
               version = "5.10.1";
             };
+            swift-toolchain = packages.swift-toolchain6;
+            default = packages.swift-toolchain;
           };
         in
         packages
