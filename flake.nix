@@ -39,72 +39,65 @@
     {
       formatter = eachSystem (pkgs: treefmt.${pkgs.system}.config.build.wrapper);
 
-      checks = eachSystem (pkgs: {
-        treefmt = treefmt.${pkgs.system}.config.build.check self;
+      checks = eachSystem (
+        pkgs:
+        let
+          inherit (pkgs) system;
+          allPkgs = pkgs // self.packages.${system};
+        in
+        {
 
-        swiftly-install =
-          pkgs.runCommandLocal "swiftly-install-check"
-            { buildInputs = [ self.packages.${pkgs.system}.swiftly-install ]; }
-            ''
-              swiftly-install --help
-              swiftly-install --version
-              echo "ok" >$out
-            '';
+          treefmt = treefmt.${system}.config.build.check self;
 
-        swiftly =
-          pkgs.runCommandLocal "swiftly-check" { buildInputs = [ self.packages.${pkgs.system}.swiftly ]; }
-            ''
-              swiftly --help
-              swiftly --version
-              echo "ok" >$out
-            '';
+          swiftly-install =
+            pkgs.runCommandLocal "swiftly-install-check" { buildInputs = [ allPkgs.swiftly-install ]; }
+              ''
+                swiftly-install --help
+                swiftly-install --version
+                echo "ok" >$out
+              '';
 
-        swift-toolchain =
-          pkgs.runCommandLocal "swift-toolchain-check"
-            { buildInputs = [ self.packages.${pkgs.system}.swift-toolchain ]; }
-            ''
-              swift --version
-              echo "ok" >$out
-            '';
-      });
+          swiftly = pkgs.runCommandLocal "swiftly-check" { buildInputs = [ allPkgs.swiftly ]; } ''
+            swiftly --help
+            swiftly --version
+            echo "ok" >$out
+          '';
 
-      packages = {
-        x86_64-linux =
-          let
-            pkgs = nixpkgs.legacyPackages.x86_64-linux;
-          in
-          {
-            swiftly-install = pkgs.callPackage ./swiftly-install.nix { };
-            swiftly-config = pkgs.callPackage ./swiftly-config.nix { };
-            swiftly = pkgs.callPackage ./swiftly.nix {
-              arch = "x86_64";
+          swift-toolchain =
+            pkgs.runCommandLocal "swift-toolchain-check" { buildInputs = [ allPkgs.swift-toolchain ]; }
+              ''
+                swift --version
+                echo "ok" >$out
+              '';
+
+          swift-toolchain510 =
+            pkgs.runCommandLocal "swift-toolchain510-check" { buildInputs = [ allPkgs.swift-toolchain510 ]; }
+              ''
+                swift --version
+                echo "ok" >$out
+              '';
+        }
+      );
+
+      packages = eachSystem (
+        pkgs:
+        let
+          callPackage = pkgs.lib.callPackageWith (pkgs // packages);
+          packages = {
+            swiftly-install = callPackage ./swiftly-install.nix { };
+            swiftly-config = callPackage ./swiftly-config.nix { };
+            swiftly = callPackage ./swiftly.nix {
               version = "0.3.0";
-              sha256 = "1gll8rq5qrs4wblk8vds9wcfkva0sdmp88kpj2dwvxwjc04x680q";
             };
-            swift-toolchain = pkgs.callPackage ./swift-toolchain.nix {
+            swift-toolchain = callPackage ./swift-toolchain.nix {
               version = "6.0";
-              sha256 = "sha256-ozA7ZMuxHSzYvve+vwxLCatRK5kClGpkuOcwD79vhZc=";
+            };
+            swift-toolchain510 = callPackage ./swift-toolchain.nix {
+              version = "5.10.1";
             };
           };
-
-        aarch64-linux =
-          let
-            pkgs = nixpkgs.legacyPackages.aarch64-linux;
-          in
-          {
-            swiftly-install = pkgs.callPackage ./swiftly-install.nix { };
-            swiftly-config = pkgs.callPackage ./swiftly-config.nix { };
-            swiftly = pkgs.callPackage ./swiftly.nix {
-              arch = "aarch64";
-              version = "0.3.0";
-              sha256 = "sPxzc+Su/CVI+yrzUYnNhppwd1A+taMwSFMmSBKI/Tw=";
-            };
-            swift-toolchain = pkgs.callPackage ./swift-toolchain.nix {
-              arch = "aarch64";
-              version = "6.0";
-              sha256 = "sha256-yOyR5UkGv8NYbIlkiF/hnmB1Lt/PcsAHUH3SP9AxTFg=";
-            };
-          };
-      };
+        in
+        packages
+      );
     };
 }

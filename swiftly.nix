@@ -1,17 +1,27 @@
 {
   lib,
+  system,
   stdenv,
   autoPatchelfHook,
   fetchurl,
   writeShellScriptBin,
   zlib,
   gnupg,
-  arch,
   version,
-  sha256,
+  sha256 ? null,
   mktemp,
 }:
 let
+  arch = lib.strings.removeSuffix "-linux" system;
+
+  urlHashes = import ./swift-downloads.nix;
+  lookupURLHash =
+    url:
+    if (builtins.hasAttr url urlHashes) then
+      (builtins.getAttr url urlHashes)
+    else
+      lib.warn "Missing sha256 hash for '${url}'" null;
+  url = "https://github.com/swiftlang/swiftly/releases/download/${version}/swiftly-${arch}-unknown-linux-gnu";
   gpgkeys = fetchurl {
     url = "https://swift.org/keys/all-keys.asc";
     sha256 = "sha256-HHSfhJjq4Q63x8+cxCJ04jQKDkyAswR1BdsrnVpQnVY=";
@@ -29,8 +39,8 @@ stdenv.mkDerivation {
   pname = "swiftly";
   inherit version;
   src = fetchurl {
-    url = "https://github.com/swiftlang/swiftly/releases/download/${version}/swiftly-${arch}-unknown-linux-gnu";
-    inherit sha256;
+    inherit url;
+    sha256 = if sha256 == null then (lookupURLHash url) else sha256;
   };
   dontUnpack = true;
   nativeBuildInputs = [
